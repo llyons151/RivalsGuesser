@@ -9,7 +9,6 @@ class GetSilhouette {
         try {
             this.dailyCharacter = await this.fetchData('./daily_silhouette_character');
             if (!this.dailyCharacter) throw new Error('Failed to fetch daily character.');
-            console.log(this.dailyCharacter); //log character for debugging
             this.checkForBigCharacters();
             this.checkForStoredScale();
             this.removeSpaces(this.dailyCharacter);
@@ -57,9 +56,9 @@ class GetSilhouette {
         }
     }
 
-    checkForStoredScale(){
+    checkForStoredScale() {
         const storedScale = localStorage.getItem('imageScale')
-        if(storedScale != undefined){
+        if (storedScale != undefined) {
             this.imageScale = storedScale;
         }
     }
@@ -95,12 +94,12 @@ class GetSilhouette {
     listenForCharacterSelect() {
         document.addEventListener('characterSelected', () => {
             localStorage.setItem('imageScale', this.imageScale);
-            
-            
+
+
             if (this.silhouetteImage) {
                 // Ensure the scale does not go below 1 (normalized value)
-                if (this.imageScale/10 > 1) {
-                    this.imageScale -= this.imageScaleRate; 
+                if (this.imageScale / 10 > 1) {
+                    this.imageScale -= this.imageScaleRate;
                     this.silhouetteImage.style.transform = `scale(${this.imageScale / 10})`;
                     console.log(`Updated Scale: ${this.imageScale / 10}`);
                 } else {

@@ -16,17 +16,17 @@ class CharacterSearch {
                 .map(lang => lang?.name)
                 .filter(Boolean); // Remove undefined values
             const storedCharacterNames = storedCharacters.map(stored => stored.translations?.en?.name).filter(Boolean);
-    
+
             return !storedCharacterNames.some(storedName => characterNames.includes(storedName));
         });
-        
-        console.log("Filtered List:", this.notSearchedMarvelCharacters);             
+
+        //console.log("Filtered List:", this.notSearchedMarvelCharacters);             
         this.setupEventListeners();
     }
 
-    checkForLanguage(){
+    checkForLanguage() {
         this.language = localStorage.getItem("language");
-        if(this.language) return;
+        if (this.language) return;
         localStorage.setItem("language", "en");
         this.language = "en";
     }
@@ -48,7 +48,7 @@ class CharacterSearch {
 
     async fetchMarvelCharacters() {
         try {
-        const response = await fetch('/character_info');
+            const response = await fetch('/character_info');
             if (!response.ok) {
                 throw new Error(`Error: ${response.status}`);
             }
@@ -73,9 +73,9 @@ class CharacterSearch {
 
     getSuggestedCharacters(typedText) {
         if (!typedText) return [];
-    
+
         const searchText = typedText.toLowerCase();
-        
+
         return this.notSearchedMarvelCharacters.filter(character =>
             character.translations[this.language].name.toLowerCase().startsWith(searchText)
         );
