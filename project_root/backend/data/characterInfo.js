@@ -2666,6 +2666,96 @@ const humanTorch = new Person({
     }
 });
 
+const phoneix = new Person({
+    en: {
+        name: "Phoneix",
+        gender: "Female",
+        species: "Mutant",
+        affiliation: "X-Men",
+        role: "Duelist",
+        eyeColor: ["Green"],
+        hairColor: ["Red"],
+        hp: 275,
+        dateOfOrigin: 1963,
+        emoji: ["🔥", "🦜", "🔮", '🌌'],
+        abilities: [
+            "COSMIC FLAMES", "ENDSONG INFERNO", "TELEPATHIC ILLUSION",
+            "DARK ASCENT", "TELEKINESIS BURST", "MIND'S GRACE"
+        ],
+        ult: "ENDSONG INFERNO"
+
+    },
+    es: {
+        name: "Phoneix",
+        gender: "Femenina",
+        species: "mutante",
+        affiliation: "X-Men",
+        role: "Duelista",
+        eyeColor: ["Verde"],
+        hairColor: ["Roja"],
+        hp: 275,
+        dateOfOrigin: 1963,
+        emoji: ["🔥", "🦜", "🔮", '🌌'],
+        abilities: [
+            "LLAMAS CÓSMICAS", "FIN DE LA CANCIÓN DEL INFIERNO", "ILUSIÓN TELEPÁTICA",
+            "ASCENSO OSCURO", "EXPLOSIÓN DE TELEKINESIS", "LA GRACIA DE LA MENTE"
+        ],
+        ult: "FIN DE LA CANCIÓN DEL INFIERNO"
+    },
+    fr: {
+        name: "Phoneix",
+        gender: "Femelle",
+        species: "Mutante",
+        affiliation: "X-Men",
+        role: "Duelliste",
+        eyeColor: ["Verte"],
+        hairColor: ["Rouge"],
+        hp: 275,
+        dateOfOrigin: 1963,
+        emoji: ["🔥", "🦜", "🔮", '🌌'],
+        abilities: [
+            "FLAMMES COSMIQUES", "FIN DE CHANSON INFERNO", "ILLUSION TÉLÉPATHIQUE",
+            "ASCENSION SOMBRE", "ÉCLAT DE TÉLÉKINÉSIE", "MIND'S GRACE"
+        ],
+        ult: "FIN DE CHANSON INFERNO"
+    },
+    de: {
+        name: "Phoneix",
+        gender: "Weiblich",
+        species: "Mutant",
+        affiliation: "X-Men",
+        role: "Duellant",
+        eyeColor: ["Grün"],
+        hairColor: ["Rot"],
+        hp: 275,
+        dateOfOrigin: 1963,
+        emoji: ["🔥", "🦜", "🔮", '🌌'],
+        abilities: [
+            "KOSMISCHE FLAMMEN", "ENDSONG INFERNO", "TELEPATHISCHE ILLUSION",
+            "Dunkler Aufstieg", "TELEKINESES-AUSBRUCH", "Die Gnade des Geistes"
+        ],
+        ult: "ENDSONG INFERNO"
+    },
+    zh: {
+        name: "凤凰",
+        gender: "女性",
+        species: "突变体",
+        affiliation: "X战警",
+        role: "决斗者",
+        eyeColor: ["绿色的"],
+        hairColor: ["红色的"],
+        hp: 275,
+        dateOfOrigin: 1963,
+        emoji: ["🔥", "🦜", "🔮", '🌌'],
+        abilities: [
+            "宇宙火焰", "末日之歌地狱", "心灵感应幻觉",
+            "黑暗上升", "心灵感应爆发", "心灵的优雅"
+        ],
+        ult: "末日之歌地狱"
+
+    },
+});
+
 const adamWarlock = new Person({
     en: {
         name: "Adam Warlock",
@@ -3382,6 +3472,94 @@ const invisibleWoman = new Person({
     }
 });
 
+const ultron = new Person({
+    en: {  // English
+        name: "Ultron",
+        gender: "Male",
+        species: "Robot",
+        affiliation: "None",
+        role: "Strategist",
+        eyeColor: ["Orange", "Red"],
+        hairColor: ["None"],
+        hp: 250,
+        dateOfOrigin: 1968,
+        emoji: ["🤖", "🧠", "⚙️", "☠️"],
+        abilities: [
+            "ENCEPHALO-RAY", "RAGE OF ULTRON", "IMPERATIVE: FIREWALL",
+            "IMPERATIVE: PATCH", "DYNAMIC FLIGHT", "NANO RAY"
+            ],
+        ult: "RAGE OF ULTRON"
+    },
+    es: {  // Spanish
+        name: "Ultron",
+        gender: "Masculino",
+        species: "Robot",
+        affiliation: "Ninguno",
+        role: "Estratega",
+        eyeColor: ["Naranja", "Rojo"],
+        hairColor: ["Ninguno"],
+        hp: 250,
+        dateOfOrigin: 1968,
+        emoji: ["🤖", "🧠", "⚙️", "☠️"],
+        abilities: [
+            "ENCEFALO-RAY", "LA FURIA DE ULTRÓN", "IMPERATIVO: FIREWALL",
+            "IMPERATIVO: PARCHE", "VUELO DINÁMICO", "NANORAYO"
+            ],
+        ult: "LA FURIA DE ULTRÓN"
+    },
+    fr: {  // French
+        name: "Ultron",
+        gender: "Mâle",
+        species: "Robot",
+        affiliation: "Aucun",
+        role: "Stratège",
+        eyeColor: ["Orange", "Rouge"],
+        hairColor: ["Aucun"],
+        hp: 250,
+        dateOfOrigin: 1968,
+        emoji: ["🤖", "🧠", "⚙️", "☠️"],
+        abilities: [
+            "RAYONNEMENT ENCÉPHALIQUE", "RAGE D'ULTRON", "IMPÉRATIF : PARE-FEU",
+            "IMPÉRATIF : PATCH", "VOL DYNAMIQUE", "NANO RAYON"
+            ],
+        ult: "RAGE D'ULTRON"
+    },
+    de: {  // German
+        name: "Ultron",
+        gender: "Männlich",
+        species: "Roboter",
+        affiliation: "Keiner",
+        role: "Stratege",
+        eyeColor: ["Orange", "Rot"],
+        hairColor: ["Keiner"],
+        hp: 250,
+        dateOfOrigin: 1968,
+        emoji: ["🤖", "🧠", "⚙️", "☠️"],
+        abilities: [
+            "ENCEPHALO-RAY", "WUT VON ULTRON", "UNBEDINGT: FIREWALL",
+            "UNBEDINGT: PATCH", "DYNAMISCHER FLUG", "NANOSTRAHL"
+            ],
+        ult: "WUT VON ULTRON"
+    },
+    zh: {  // Mandarin (Simplified Chinese)
+        name: "奥创",
+        gender: "男性",
+        species: "机器人",
+        affiliation: "没有任何",
+        role: "战略家",
+        eyeColor: ["橙子", "红色的"],
+        hairColor: ["没有任何"],
+        hp: 250,
+        dateOfOrigin: 1968,
+        emoji: ["🤖", "🧠", "⚙️", "☠️"],
+        abilities: [
+            "脑射线", "奥创之怒", "必要措施：防火墙",
+            "紧急：补丁", "动态飞行", "纳米射线"
+            ],
+        ult: "奥创之怒"
+    }
+});
+
 export const characters = [
     captainAmerica,
     doctorStrange,
@@ -3413,6 +3591,7 @@ export const characters = [
     wolverine,
     misterFantastic,
     humanTorch,
+    phoneix,
     adamWarlock,
     rocket,
     loki,
@@ -3420,5 +3599,6 @@ export const characters = [
     mantis,
     cloakAndDagger,
     jeffTheLandShark,
-    invisibleWoman
+    invisibleWoman,
+    ultron
 ];
