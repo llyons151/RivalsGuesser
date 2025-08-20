@@ -2666,9 +2666,9 @@ const humanTorch = new Person({
     }
 });
 
-const phoneix = new Person({
+const phoenix = new Person({
     en: {
-        name: "Phoneix",
+        name: "Phoenix",
         gender: "Female",
         species: "Mutant",
         affiliation: "X-Men",
@@ -2686,7 +2686,7 @@ const phoneix = new Person({
 
     },
     es: {
-        name: "Phoneix",
+        name: "Phoenix",
         gender: "Femenina",
         species: "mutante",
         affiliation: "X-Men",
@@ -2703,7 +2703,7 @@ const phoneix = new Person({
         ult: "FIN DE LA CANCIÓN DEL INFIERNO"
     },
     fr: {
-        name: "Phoneix",
+        name: "Phoenix",
         gender: "Femelle",
         species: "Mutante",
         affiliation: "X-Men",
@@ -2720,7 +2720,7 @@ const phoneix = new Person({
         ult: "FIN DE CHANSON INFERNO"
     },
     de: {
-        name: "Phoneix",
+        name: "Phoenix",
         gender: "Weiblich",
         species: "Mutant",
         affiliation: "X-Men",
@@ -3591,7 +3591,7 @@ export const characters = [
     wolverine,
     misterFantastic,
     humanTorch,
-    phoneix,
+    phoenix,
     adamWarlock,
     rocket,
     loki,
