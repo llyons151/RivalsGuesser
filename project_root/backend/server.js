@@ -42,10 +42,10 @@ setInterval(() => {
   checkAndResetCharacters();
 }, 24 * 60 * 60 * 1000);
 
-// ads.txt — static response so Ezoic and AdSense crawlers get a valid 200.
-// Once Ezoic provisions srv.adstxtmanager.com/19390/rivaldle.com, switch back to a 301 redirect.
+// Ezoic ads.txt — registered BEFORE express.static so it overrides any file at public/ads.txt.
+// AdSense pub-4665560797867297 must be added inside Ezoic's adstxtmanager UI so it appears in the merged file.
 app.get('/ads.txt', (req, res) => {
-  res.type('text/plain').send('google.com, pub-4665560797867297, DIRECT, f08c47fec0942fa0\n');
+  res.redirect(301, 'https://srv.adstxtmanager.com/19390/rivaldle.com');
 });
 
 app.use(express.static(path.join(__dirname, '../public')));
