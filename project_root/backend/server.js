@@ -42,6 +42,11 @@ setInterval(() => {
   checkAndResetCharacters();
 }, 24 * 60 * 60 * 1000);
 
+// Ezoic ads.txt — registered BEFORE express.static so it overrides any file at public/ads.txt
+app.get('/ads.txt', (req, res) => {
+  res.redirect(301, 'https://srv.adstxtmanager.com/19390/rivaldle.com');
+});
+
 app.use(express.static(path.join(__dirname, '../public')));
 
 app.get('/character_info', (req, res) => {
