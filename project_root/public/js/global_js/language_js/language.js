@@ -3,8 +3,9 @@ export const globalTranslations = {
         characterInput: "Type character name ...",
         selectBackground: "Select a Background",
         footerText1: "rivaldle.com — 2025",
-        footerText2: "Marvel does not endorse or sponsor this project.",
+        footerText2: "Rivaldle is an unofficial fan project. Marvel, Marvel Rivals, and all related characters, names, and logos are trademarks of Marvel Entertainment and The Walt Disney Company. This site is not affiliated with, endorsed, or sponsored by Marvel. Content is used under fair use for commentary and transformative, non-commercial purposes.",
         privacyPolicy: "Privacy Policy",
+        termsOfService: "Terms of Service",
         example: "Example:",
 
         //game compleated stat box
@@ -34,8 +35,9 @@ export const globalTranslations = {
         characterInput: "Escribe el nombre del personaje ...",
         selectBackground: "Selecciona un fondo",
         footerText1: "rivaldle.com — 2025",
-        footerText2: "Marvel no respalda ni patrocina este proyecto.",
+        footerText2: "Rivaldle es un proyecto no oficial creado por fans. Marvel, Marvel Rivals y todos los personajes, nombres y logotipos relacionados son marcas registradas de Marvel Entertainment y The Walt Disney Company. Este sitio no está afiliado, respaldado ni patrocinado por Marvel. El contenido se utiliza bajo el principio de uso justo con fines de comentario y transformación, sin fines comerciales.",
         privacyPolicy: "Política de privacidad",
+        termsOfService: "Términos de Servicio",
         example: "Ejemplo:",
 
         victory: "Victoria!",
@@ -62,8 +64,9 @@ export const globalTranslations = {
         characterInput: "Tapez le nom du personnage ...",
         selectBackground: "Sélectionnez un fond",
         footerText1: "rivaldle.com — 2025",
-        footerText2: "Marvel ne soutient ni ne parraine ce projet.",
+        footerText2: "Rivaldle est un projet non officiel créé par des fans. Marvel, Marvel Rivals et tous les personnages, noms et logos associés sont des marques déposées de Marvel Entertainment et de The Walt Disney Company. Ce site n'est ni affilié, ni approuvé, ni sponsorisé par Marvel. Le contenu est utilisé dans le cadre du « fair use » à des fins de commentaire et de transformation, sans but commercial.",
         privacyPolicy: "Politique de confidentialité",
+        termsOfService: "Conditions d'utilisation",
         example: "Exemple:",
 
         victory: "Victoire!",
@@ -90,8 +93,9 @@ export const globalTranslations = {
         characterInput: "Geben Sie den Charakternamen ein ...",
         selectBackground: "Wählen Sie einen Hintergrund",
         footerText1: "rivaldle.com — 2025",
-        footerText2: "Marvel unterstützt oder sponsert dieses Projekt nicht.",
+        footerText2: "Rivaldle ist ein inoffizielles Fan-Projekt. Marvel, Marvel Rivals sowie alle zugehörigen Charaktere, Namen und Logos sind Marken von Marvel Entertainment und The Walt Disney Company. Diese Website steht in keiner Verbindung zu Marvel und wird nicht von Marvel unterstützt oder gesponsert. Inhalte werden im Rahmen des „Fair Use\" zu Kommentar- und transformativen, nichtkommerziellen Zwecken verwendet.",
         privacyPolicy: "Datenschutz-Bestimmungen",
+        termsOfService: "Nutzungsbedingungen",
         example: "Beispiel:",
 
         victory: "Sieg!",
@@ -118,8 +122,9 @@ export const globalTranslations = {
         characterInput: "输入角色名称 ...",
         selectBackground: "选择背景",
         footerText1: "rivaldle.com — 二千〇二十五",
-        footerText2: "Marvel 不支持或赞助该项目。",
+        footerText2: "Rivaldle 是一个非官方的粉丝项目。Marvel、Marvel Rivals 及所有相关角色、名称和标志均为 Marvel Entertainment 和华特迪士尼公司的商标。本网站与 Marvel 无关，且未获得 Marvel 的认可或赞助。所有 Marvel 相关内容均在合理使用原则下用于非商业性的评论和转换性用途。",
         privacyPolicy: "隐私政策",
+        termsOfService: "服务条款",
         example: "示例:",
 
         victory: "胜利",

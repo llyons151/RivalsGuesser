@@ -279,6 +279,18 @@ body {
     text-decoration: none;
 }
 
+/* Smaller disclaimer line that sits at the very bottom */
+.footer_disclaimer {
+    display: block;
+    font-size: 0.65em;
+    line-height: 1.4;
+    max-width: 800px;
+    margin: 10px auto 20px;
+    padding: 0 20px;
+    text-align: center;
+    opacity: 0.75;
+}
+
 /* Media query for smaller screens */
 
 
@@ -411,19 +423,24 @@ body {
 }
 
 /* Removes the underline */
-#privacyPolicyLink {
+#privacyPolicyLink,
+#termsOfServiceLink {
     text-decoration: none;
 }
 
 /* Ensure the text is not underlined even on hover or active states */
 #privacyPolicyLink:hover,
 #privacyPolicyLink:active,
-#privacyPolicyLink:visited {
+#privacyPolicyLink:visited,
+#termsOfServiceLink:hover,
+#termsOfServiceLink:active,
+#termsOfServiceLink:visited {
     text-decoration: none;
 }
 
 /* Adds pointer cursor for a clickable effect */
-#privacyPolicyLink .footer_text {
+#privacyPolicyLink .footer_text,
+#termsOfServiceLink .footer_text {
     cursor: pointer;
 }
 

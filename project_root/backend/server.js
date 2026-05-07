@@ -96,6 +96,10 @@ app.get('/privacy_policy', (req, res) => {
   res.sendFile(path.join(__dirname, '../pages/privacy_policy/privacy_policy.html'));
 });
 
+app.get('/terms_of_service', (req, res) => {
+  res.sendFile(path.join(__dirname, '../pages/terms_of_service/terms_of_service.html'));
+});
+
 // Serve the classic mode page
 app.get('/classic', (req, res) => {
   res.sendFile(path.join(__dirname, '../pages/classic_mode_page/index.html'));
