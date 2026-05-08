@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Ezoic Privacy Scripts (must load before Ezoic header script) -->
+    <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+    <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+
+    <!-- Ezoic Header Script -->
+    <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+    <script>
+        window.ezstandalone = window.ezstandalone || {};
+        ezstandalone.cmd = ezstandalone.cmd || [];
+    </script>
+    <script src="//ezoicanalytics.com/analytics.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="About Rivaldle — the story behind the Marvel Rivals daily guessing game. Meet the creators, learn how the project started, and read about the people building Rivaldle.">
+    <meta name="keywords"
+        content="About Rivaldle, Rivaldle creators, Marvel Rivals fan game, daily guessing game, Marvel trivia developers">
+    <link rel="canonical" href="https://rivaldle.com/about" />
+
+    <title>About Rivaldle – The Story Behind the Marvel Rivals Daily Guessing Game</title>
+
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/png" href="/_images/home_images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/_images/home_images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/_images/home_images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/_images/home_images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/_images/home_images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/global_css/global.css">
+    <link rel="stylesheet" href="/css/content_pages/content.css">
+
+    <!-- Google Tag and Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VH4X4068PD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-VH4X4068PD');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4665560797867297"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Ezoic - top_of_page - top_of_page -->
+    <div id="ezoic-pub-ad-placeholder-118"></div>
+    <!-- End Ezoic - top_of_page - top_of_page -->
+
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+
+    <div id="content">
+        <!-- Settings Icon -->
+        <div class="settings-icon" id="settingsIcon"></div>
+
+        <!-- Background Selection Menu -->
+        <div class="background-menu" id="backgroundMenu">
+            <div class="menu-header">
+                <h3>Select a Background</h3>
+                <button id="resetBackgroundBtn" title="Reset Background">
+                    <span class="reset-icon">&#x21bb;</span>
+                </button>
+            </div>
+            <div class="background-options">
+                <img src="/_images/backgrounds/image (1).jpg" alt="Background 1" class="background-option" data-bg="/_images/backgrounds/image (1).jpg">
+                <img src="/_images/backgrounds/image (2).jpg" alt="Background 2" class="background-option" data-bg="/_images/backgrounds/image (2).jpg">
+                <img src="/_images/backgrounds/image (3).jpg" alt="Background 3" class="background-option" data-bg="/_images/backgrounds/image (3).jpg">
+                <img src="/_images/backgrounds/image (4).jpg" alt="Background 4" class="background-option" data-bg="/_images/backgrounds/image (4).jpg">
+                <img src="/_images/backgrounds/image (5).jpg" alt="Background 5" class="background-option" data-bg="/_images/backgrounds/image (5).jpg">
+                <img src="/_images/backgrounds/image (6).jpg" alt="Background 6" class="background-option" data-bg="/_images/backgrounds/image (6).jpg">
+                <img src="/_images/backgrounds/image (7).jpg" alt="Background 7" class="background-option" data-bg="/_images/backgrounds/image (7).jpg">
+                <img src="/_images/backgrounds/image (8).jpg" alt="Background 8" class="background-option" data-bg="/_images/backgrounds/image (8).jpg">
+            </div>
+        </div>
+
+        <!-- Site frame -->
+        <div class="custom-image-overlay"></div>
+        <div class="overlay"></div>
+
+        <!-- Logo header -->
+        <a href="/" id="title_logo">
+            <img src="/_images/home_images/RivalsLogo.png" class="logo" alt="Marvel Rivals Game Logo">
+        </a>
+
+        <!-- Ezoic - under_page_title - under_page_title -->
+        <div id="ezoic-pub-ad-placeholder-120"></div>
+        <!-- End Ezoic - under_page_title - under_page_title -->
+
+        <main class="content_panel">
+            <div class="meta_row">Last updated: May 2026</div>
+            <h1>About Rivaldle</h1>
+
+            <p class="lede">Rivaldle is a free, browser-based daily guessing game built around the cast of
+                <em>Marvel Rivals</em>. Every day a different character becomes the answer, and players have unlimited
+                attempts to identify them across five distinct game modes. We built Rivaldle for the people who already
+                love the roster — the players who can name a hero from a single ultimate splash, a torn silhouette, or
+                four emojis pinned to the bottom of a Discord message.
+            </p>
+
+            <h2>Who is behind Rivaldle?</h2>
+            <p>Rivaldle is an independent fan project, started in 2025 as a way to combine the kind of programming work
+                we already enjoyed with a game we were already playing every night. We are not a studio and we are not
+                affiliated with NetEase, Marvel Games, or Disney. The site is hand-built: vanilla HTML, vanilla CSS, an
+                Express backend, and one shared Google App Engine deploy. There is no ad-tech behind the curtain other
+                than what you can see in the page source. There is no analytics dashboard reading your inputs. We made
+                the entire thing because we wanted to play it ourselves.
+            </p>
+            <p>If you have built a Wordle clone before, you already know roughly how Rivaldle works under the hood. The
+                interesting part — the part we have spent most of our time on — is everything that surrounds the
+                puzzle: five different framings of the same daily answer, a streak system that rewards consistency
+                rather than speed, a localization layer that runs in five languages, and a content set that we manually
+                maintain as the <em>Marvel Rivals</em> roster grows. That last point matters more than it sounds. Each
+                new hero added to the game requires us to research, transcribe, normalize, and translate roughly forty
+                fields of data. We do that work ourselves, by hand, because that is the part of the game that we
+                believe should never be wrong.
+            </p>
+
+            <h2>Why a daily Marvel Rivals game?</h2>
+            <p>The original spark for Rivaldle was the realization that <em>Marvel Rivals</em> was missing the kind of
+                companion puzzle that other competitive games have grown alongside them. <em>League of Legends</em> has
+                LoLdle. <em>Smash Bros.</em> has Smashdle. Even niche fighters have community-run guessing games. The
+                <em>Marvel Rivals</em> roster is genuinely well-suited to this format: heroes have distinct
+                silhouettes, ability names that are themselves a kind of trivia, and visual designs lifted from decades
+                of Marvel comics and films. The audience for this game is also broader than the audience for any one
+                comic run. Someone who has only ever seen the MCU films can play a round of Emoji Mode and have a real
+                chance. Someone who has been reading Hickman runs since 2012 will recognize a silhouette that confuses
+                everyone else. We wanted a puzzle that worked at every level of fandom, and we wanted it to reset once
+                a day so it stayed a conversation rather than a grind.
+            </p>
+            <p>Resetting once a day is a deliberate constraint. Rivaldle does not let you replay a mode you have
+                already cleared, and the answer is the same for every player on Earth on any given day. The reason is
+                simple: the game is more interesting when it is shared. The fun of asking a friend whether they got
+                today's emoji puzzle is gone if everyone is on a different randomized seed. The streak system reflects
+                the same idea — it tracks consecutive days, not consecutive solves, because we want the game to be a
+                habit rather than a high score.
+            </p>
+
+            <h2>How Rivaldle is built</h2>
+            <p>Rivaldle is a static frontend with a small Express backend that serves the daily answers and the
+                character database. There is no user account system, and we do not store anything about you on the
+                server. Your streak and progress live entirely in your browser's local storage. If you clear your
+                cookies, your streak is gone, and there is no way for us to bring it back — that is by design. We did
+                not want to build a game that asked for an email address before letting you guess Wolverine.
+            </p>
+            <p>The character database is hand-maintained in a single JavaScript file. Each entry contains the hero's
+                role, HP value, gender, species, affiliation, eye color, hair color, year of first appearance in
+                Marvel comics, an emoji string we authored, and the ordered ability list as it appears in
+                <em>Marvel Rivals</em>. Every field is duplicated across five languages — English, Spanish, French,
+                German, and Mandarin — because we wanted the puzzle to work for the international audience that
+                <em>Marvel Rivals</em> already has. When a new hero is added to the live game, we add the entry,
+                verify it against the in-game ability descriptions, and push the data set live the same week.
+            </p>
+            <p>The five game modes share that single character database. Classic Mode runs a comparison grid, similar
+                to other guessing games, where each guess is compared against the secret hero across eight categories.
+                Silhouette Mode pulls the character splash, blacks it out, and reveals it gradually as you guess.
+                Emoji Mode displays four emojis we picked to gesture at the answer without naming them. Character
+                Ability Mode shows the literal text of one of the hero's abilities and asks you to identify the hero
+                from the ability alone. Pixelation Mode, the newest mode, displays the character splash at extreme
+                pixelation and unblurs it with each wrong guess. The shared database means the puzzles stay coherent
+                across modes — if a character is in one, they are in all of them.
+            </p>
+
+            <h2>What we will not do</h2>
+            <p>It feels worth being explicit about a few things, because the line between a fan project and a content
+                farm is thinner than people assume. We will not sell or rent your data. We will not ask you to make an
+                account. We will not paywall any mode. We will not run pop-ups or interstitial video ads. Rivaldle
+                currently runs display advertising through Google AdSense and Ezoic in order to cover hosting costs;
+                that is the entire business model, and you can read the details in our Privacy Policy. We will never
+                charge for access, and we will never put a daily answer behind a subscription.
+            </p>
+            <p>We also will not claim ownership over Marvel content. Every character on this site, every name, every
+                ability, every visual is the intellectual property of Marvel Entertainment and its parent company, The
+                Walt Disney Company. Rivaldle is an unofficial fan project that uses these elements under the doctrine
+                of fair use for the purposes of commentary and transformative gameplay. If a representative of Marvel
+                or Disney ever asks us to remove content, we will remove it. The disclaimer in the footer is not a
+                formality. It is the basis on which this entire site exists.
+            </p>
+
+            <h2>Who Rivaldle is for</h2>
+            <p>Rivaldle is for the player who has the daily Wordle bookmarked, who plays a few rounds of LoLdle while
+                waiting for queue, who screenshots a Smashdle solve to a group chat. It is for the
+                <em>Marvel Rivals</em> player who wants something to do during a queue pop, and for the comics reader
+                who never installed <em>Marvel Rivals</em> but recognizes Adam Warlock from the cover of <em>Strange
+                Tales</em> #178. It is for anyone who wants a small, daily, low-stakes puzzle that costs nothing and
+                respects their time. We hope you enjoy it. If you don't, the close tab is right there and we will not
+                chase you with an email.
+            </p>
+
+            <h2>Contact</h2>
+            <p>Bug reports, feature requests, character corrections, takedown notices, and general feedback can all be
+                sent to <a href="mailto:rivaldleguesser@gmail.com">rivaldleguesser@gmail.com</a>. We read every email
+                and we respond to most of them. If you found a factual error in a character entry — wrong HP, wrong
+                year of origin, an ability that does not match the in-game text — please include the character name
+                and the field in your subject line. That is the fastest way to get the fix shipped.
+            </p>
+            <p>You can also follow Rivaldle on
+                <a href="https://www.instagram.com/rivaldle/" rel="noopener" target="_blank">Instagram</a>, where we
+                post roster updates, mode launches, and occasional notes about the puzzle of the day.
+            </p>
+
+            <p style="text-align:center;margin-top:30px;">
+                <a class="play_button" href="/">← Back to Rivaldle</a>
+                <a class="play_button" href="/how-to-play">How to Play</a>
+                <a class="play_button" href="/characters">Characters</a>
+            </p>
+        </main>
+
+        <!-- Footer -->
+        <div class="footer_text" id="footerText1">rivaldle.com — 2026</div>
+        <a href="/about" id="aboutLink">
+            <div class="footer_text">About</div>
+        </a>
+        <a href="/how-to-play" id="howToPlayLink">
+            <div class="footer_text">How to Play</div>
+        </a>
+        <a href="/characters" id="charactersLink">
+            <div class="footer_text">Characters</div>
+        </a>
+        <a href="/privacy_policy" id="privacyPolicyLink">
+            <div class="footer_text">Privacy Policy</div>
+        </a>
+        <a href="/terms_of_service" id="termsOfServiceLink">
+            <div class="footer_text">Terms of Service</div>
+        </a>
+        <div class="footer_text footer_disclaimer">Rivaldle is an unofficial fan project. Marvel, Marvel Rivals, and
+            all related characters, names, and logos are trademarks of Marvel Entertainment and The Walt Disney
+            Company. This site is not affiliated with, endorsed, or sponsored by Marvel. Content is used under fair
+            use for commentary and transformative, non-commercial purposes.
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/global_js/background_js/background_change.js"></script>
+
+    <!-- Ezoic - bottom_of_page - bottom_of_page -->
+    <div id="ezoic-pub-ad-placeholder-119"></div>
+    <!-- End Ezoic - bottom_of_page - bottom_of_page -->
+    <script>
+        ezstandalone.cmd.push(function () {
+            ezstandalone.showAds(118, 119, 120);
+        });
+    </script>
+</body>
+
+</html>

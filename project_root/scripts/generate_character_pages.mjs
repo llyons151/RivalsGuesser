@@ -1,0 +1,244 @@
+import { profiles } from './character_profiles.mjs';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const outDir = path.resolve(__dirname, '../pages/characters_page/profiles');
+
+if (!fs.existsSync(outDir)) {
+    fs.mkdirSync(outDir, { recursive: true });
+}
+
+function rolePill(role) {
+    return `<span class="tag_pill ${role.toLowerCase()}">${role}</span>`;
+}
+
+function neighbors(idx) {
+    const prev = profiles[(idx - 1 + profiles.length) % profiles.length];
+    const next = profiles[(idx + 1) % profiles.length];
+    return { prev, next };
+}
+
+function renderPage(p, idx) {
+    const { prev, next } = neighbors(idx);
+    const abilityListItems = p.abilities.map(a => `<li>${a}</li>`).join('\n                        ');
+    const description = `${p.name} guide for Marvel Rivals — role, HP, abilities, comic origin (${p.year}), and Rivaldle-spotting tips. Hand-written profile by the Rivaldle team.`;
+    return `<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Ezoic Privacy Scripts (must load before Ezoic header script) -->
+    <script data-cfasync="false" src="https://cmp.gatekeeperconsent.com/min.js"></script>
+    <script data-cfasync="false" src="https://the.gatekeeperconsent.com/cmp.min.js"></script>
+
+    <!-- Ezoic Header Script -->
+    <script async src="//www.ezojs.com/ezoic/sa.min.js"></script>
+    <script>
+        window.ezstandalone = window.ezstandalone || {};
+        ezstandalone.cmd = ezstandalone.cmd || [];
+    </script>
+    <script src="//ezoicanalytics.com/analytics.js"></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="${description}">
+    <meta name="keywords" content="${p.name} Marvel Rivals, ${p.name} guide, ${p.name} abilities, ${p.role} hero, Marvel Rivals ${p.role}, Rivaldle ${p.name}">
+    <link rel="canonical" href="https://rivaldle.com/characters/${p.slug}" />
+
+    <title>${p.name} – Marvel Rivals Hero Guide | Rivaldle</title>
+
+    <!-- Favicon Links -->
+    <link rel="icon" type="image/png" href="/_images/home_images/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/_images/home_images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/_images/home_images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/_images/home_images/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/_images/home_images/favicon/site.webmanifest" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/css/global_css/global.css">
+    <link rel="stylesheet" href="/css/content_pages/content.css">
+
+    <!-- Google Tag and Ads -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-VH4X4068PD"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-VH4X4068PD');
+    </script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4665560797867297"
+        crossorigin="anonymous"></script>
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "${p.name} – Marvel Rivals Hero Guide",
+      "description": "${description}",
+      "author": { "@type": "Organization", "name": "Rivaldle" },
+      "publisher": { "@type": "Organization", "name": "Rivaldle" },
+      "datePublished": "2026-05-08",
+      "dateModified": "2026-05-08",
+      "mainEntityOfPage": "https://rivaldle.com/characters/${p.slug}"
+    }
+    </script>
+</head>
+
+<body>
+    <!-- Ezoic - top_of_page - top_of_page -->
+    <div id="ezoic-pub-ad-placeholder-118"></div>
+    <!-- End Ezoic - top_of_page - top_of_page -->
+
+    <!-- Loader -->
+    <div id="loader" class="loader"></div>
+
+    <div id="content">
+        <!-- Settings Icon -->
+        <div class="settings-icon" id="settingsIcon"></div>
+
+        <!-- Background Selection Menu -->
+        <div class="background-menu" id="backgroundMenu">
+            <div class="menu-header">
+                <h3>Select a Background</h3>
+                <button id="resetBackgroundBtn" title="Reset Background">
+                    <span class="reset-icon">&#x21bb;</span>
+                </button>
+            </div>
+            <div class="background-options">
+                <img src="/_images/backgrounds/image (1).jpg" alt="Background 1" class="background-option" data-bg="/_images/backgrounds/image (1).jpg">
+                <img src="/_images/backgrounds/image (2).jpg" alt="Background 2" class="background-option" data-bg="/_images/backgrounds/image (2).jpg">
+                <img src="/_images/backgrounds/image (3).jpg" alt="Background 3" class="background-option" data-bg="/_images/backgrounds/image (3).jpg">
+                <img src="/_images/backgrounds/image (4).jpg" alt="Background 4" class="background-option" data-bg="/_images/backgrounds/image (4).jpg">
+                <img src="/_images/backgrounds/image (5).jpg" alt="Background 5" class="background-option" data-bg="/_images/backgrounds/image (5).jpg">
+                <img src="/_images/backgrounds/image (6).jpg" alt="Background 6" class="background-option" data-bg="/_images/backgrounds/image (6).jpg">
+                <img src="/_images/backgrounds/image (7).jpg" alt="Background 7" class="background-option" data-bg="/_images/backgrounds/image (7).jpg">
+                <img src="/_images/backgrounds/image (8).jpg" alt="Background 8" class="background-option" data-bg="/_images/backgrounds/image (8).jpg">
+            </div>
+        </div>
+
+        <!-- Site frame -->
+        <div class="custom-image-overlay"></div>
+        <div class="overlay"></div>
+
+        <!-- Logo header -->
+        <a href="/" id="title_logo">
+            <img src="/_images/home_images/RivalsLogo.png" class="logo" alt="Marvel Rivals Game Logo">
+        </a>
+
+        <!-- Ezoic - under_page_title - under_page_title -->
+        <div id="ezoic-pub-ad-placeholder-120"></div>
+        <!-- End Ezoic - under_page_title - under_page_title -->
+
+        <main class="content_panel">
+            <div class="meta_row">
+                <a href="/characters">← Back to all characters</a>
+            </div>
+
+            <div class="character_header">
+                <img src="/_images/character_images/hero_profile_images/character_image/${p.file}.png" alt="${p.name} hero portrait">
+                <div class="meta">
+                    <h1>${p.name}</h1>
+                    <div>${rolePill(p.role)} <span class="tag_pill">${p.affiliation}</span></div>
+                    <p>${p.role} · ${p.hp} HP · First appeared ${p.year} · ${p.species}</p>
+                </div>
+            </div>
+
+            <div class="stat_grid">
+                <div><div class="stat_label">Role</div><div class="stat_value">${p.role}</div></div>
+                <div><div class="stat_label">HP</div><div class="stat_value">${p.hp}</div></div>
+                <div><div class="stat_label">Affiliation</div><div class="stat_value">${p.affiliation}</div></div>
+                <div><div class="stat_label">Species</div><div class="stat_value">${p.species}</div></div>
+                <div><div class="stat_label">First appearance</div><div class="stat_value">${p.year}</div></div>
+                <div><div class="stat_label">Ultimate</div><div class="stat_value">${p.ult}</div></div>
+            </div>
+
+            <h2>Origin</h2>
+            <p>${p.origin}</p>
+
+            <h2>Comic history</h2>
+            <p>${p.history}</p>
+
+            <h2>${p.name} in <em>Marvel Rivals</em></h2>
+            <p>${p.rivals}</p>
+
+            <h2>Abilities</h2>
+            <p>${p.abilitiesNote}</p>
+            <div class="ability_list">
+                <ul>
+                        ${abilityListItems}
+                </ul>
+            </div>
+
+            <h2>Spotting ${p.name} in Rivaldle</h2>
+            <p>${p.spotting}</p>
+
+            <h2>Try the puzzle</h2>
+            <p>${p.name} is a possible answer in every Rivaldle mode. The fastest way to spot them is usually a
+                combination of two columns in Classic Mode plus a quick read of the silhouette or pixelation. Once
+                you get a feel for the database fingerprints — the unique species cell, the unique origin year, the
+                unique HP value — most heroes can be solved in two or three guesses.
+            </p>
+            <p style="text-align:center;">
+                <a class="play_button" href="/classic">Play Classic</a>
+                <a class="play_button" href="/silhouette">Silhouette</a>
+                <a class="play_button" href="/emoji">Emoji</a>
+            </p>
+
+            <div class="next_prev">
+                <a href="/characters/${prev.slug}">← ${prev.name}</a>
+                <a href="/characters/${next.slug}">${next.name} →</a>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <div class="footer_text" id="footerText1">rivaldle.com — 2026</div>
+        <a href="/about" id="aboutLink">
+            <div class="footer_text">About</div>
+        </a>
+        <a href="/how-to-play" id="howToPlayLink">
+            <div class="footer_text">How to Play</div>
+        </a>
+        <a href="/characters" id="charactersLink">
+            <div class="footer_text">Characters</div>
+        </a>
+        <a href="/privacy_policy" id="privacyPolicyLink">
+            <div class="footer_text">Privacy Policy</div>
+        </a>
+        <a href="/terms_of_service" id="termsOfServiceLink">
+            <div class="footer_text">Terms of Service</div>
+        </a>
+        <div class="footer_text footer_disclaimer">Rivaldle is an unofficial fan project. Marvel, Marvel Rivals, and
+            all related characters, names, and logos are trademarks of Marvel Entertainment and The Walt Disney
+            Company. This site is not affiliated with, endorsed, or sponsored by Marvel. Content is used under fair
+            use for commentary and transformative, non-commercial purposes.
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="/js/global_js/background_js/background_change.js"></script>
+
+    <!-- Ezoic - bottom_of_page - bottom_of_page -->
+    <div id="ezoic-pub-ad-placeholder-119"></div>
+    <!-- End Ezoic - bottom_of_page - bottom_of_page -->
+    <script>
+        ezstandalone.cmd.push(function () {
+            ezstandalone.showAds(118, 119, 120);
+        });
+    </script>
+</body>
+
+</html>
+`;
+}
+
+let count = 0;
+profiles.forEach((p, idx) => {
+    const html = renderPage(p, idx);
+    const file = path.join(outDir, `${p.slug}.html`);
+    fs.writeFileSync(file, html, 'utf8');
+    count += 1;
+});
+
+console.log(`Wrote ${count} character pages to ${outDir}`);

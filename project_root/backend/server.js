@@ -106,6 +106,30 @@ app.get('/terms_of_service', (req, res) => {
   res.sendFile(path.join(__dirname, '../pages/terms_of_service/terms_of_service.html'));
 });
 
+app.get('/about', (req, res) => {
+  res.sendFile(path.join(__dirname, '../pages/about_page/about.html'));
+});
+
+app.get('/how-to-play', (req, res) => {
+  res.sendFile(path.join(__dirname, '../pages/how_to_play_page/how_to_play.html'));
+});
+
+app.get('/characters', (req, res) => {
+  res.sendFile(path.join(__dirname, '../pages/characters_page/characters.html'));
+});
+
+const characterSlugPattern = /^[a-z][a-z0-9-]*$/;
+app.get('/characters/:slug', (req, res, next) => {
+  const slug = req.params.slug;
+  if (!characterSlugPattern.test(slug)) {
+    return next();
+  }
+  const file = path.join(__dirname, '../pages/characters_page/profiles', `${slug}.html`);
+  res.sendFile(file, (err) => {
+    if (err) next();
+  });
+});
+
 // Serve the classic mode page
 app.get('/classic', (req, res) => {
   res.sendFile(path.join(__dirname, '../pages/classic_mode_page/index.html'));

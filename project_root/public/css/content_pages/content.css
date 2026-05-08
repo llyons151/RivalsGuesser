@@ -1,0 +1,385 @@
+/* Content pages (about, how-to-play, characters, profiles) — designed to
+   sit on top of global.css. Reuses the dark Marvel aesthetic: full-bleed
+   background, semi-transparent dark panels, MarvelFont headings, white
+   text with deep text-shadow. */
+
+#content {
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+/* Article container — sits over the page background, dark and translucent
+   so the chosen background still shows through. */
+.content_panel {
+    position: relative;
+    z-index: 2;
+    width: 88vw;
+    max-width: 880px;
+    margin: 4vh auto 6vh;
+    padding: 32px 36px;
+    background-color: rgba(0, 0, 0, 0.72);
+    border: 2px solid rgba(220, 225, 244, 0.55);
+    box-shadow: 0 6px 24px rgba(0, 0, 0, 0.45);
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    line-height: 1.7;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.85);
+}
+
+.content_panel h1,
+.content_panel h2,
+.content_panel h3 {
+    font-family: 'MarvelFont', 'Franklin Gothic Medium', sans-serif;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.02em;
+}
+
+.content_panel h1 {
+    font-size: 2.4em;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.content_panel h2 {
+    font-size: 1.6em;
+    margin: 30px 0 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    color: #ffd166;
+}
+
+.content_panel h3 {
+    font-size: 1.2em;
+    margin: 22px 0 6px;
+    color: #f6f7fb;
+}
+
+.content_panel p,
+.content_panel li {
+    font-size: 1.02em;
+    margin: 10px 0;
+}
+
+.content_panel a {
+    color: #ffd166;
+    text-decoration: none;
+    border-bottom: 1px dotted rgba(255, 209, 102, 0.6);
+}
+
+.content_panel a:hover {
+    color: #ffffff;
+    border-bottom-color: #ffffff;
+}
+
+.content_panel em {
+    color: #f6f7fb;
+}
+
+.content_panel code {
+    background: rgba(255, 255, 255, 0.12);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 0.95em;
+}
+
+.lede {
+    font-size: 1.1em;
+    color: #f6f7fb;
+}
+
+.meta_row {
+    font-size: 0.9em;
+    color: #d6dbe8;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.meta_row a {
+    color: #ffd166;
+}
+
+.toc {
+    background: rgba(255, 255, 255, 0.06);
+    border-left: 4px solid #c8102e;
+    padding: 14px 18px;
+    margin: 18px 0 28px;
+}
+
+.toc strong {
+    font-family: 'MarvelFont', sans-serif;
+    color: #ffd166;
+    letter-spacing: 0.04em;
+}
+
+.toc ul {
+    margin: 8px 0 0;
+    padding-left: 20px;
+}
+
+/* Pills for role/affiliation tags */
+.tag_pill {
+    display: inline-block;
+    background: rgba(255, 255, 255, 0.15);
+    color: #ffffff;
+    font-family: 'MarvelFont', sans-serif;
+    font-size: 0.85em;
+    padding: 4px 12px;
+    border-radius: 999px;
+    margin-right: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.85);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.tag_pill.duelist {
+    background: #c8102e;
+    border-color: #ff5b6e;
+}
+
+.tag_pill.vanguard {
+    background: #1e3a8a;
+    border-color: #6c8cff;
+}
+
+.tag_pill.strategist {
+    background: #047857;
+    border-color: #5edca0;
+}
+
+/* Comic-style legend swatches for the How to Play page */
+.legend {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 12px 0;
+}
+
+.legend_box {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.95em;
+}
+
+.swatch {
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    border-radius: 3px;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.swatch.green {
+    background: #5cb85c;
+}
+
+.swatch.yellow {
+    background: #f0ad4e;
+}
+
+.swatch.red {
+    background: #d9534f;
+}
+
+/* Mode buttons — match the home page mode_link_box look but slimmer for inline use */
+.play_button {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #ffffff;
+    font-family: 'MarvelFont', sans-serif;
+    font-size: 1em;
+    padding: 10px 18px;
+    margin: 6px 6px 0 0;
+    text-decoration: none;
+    border: 1.5px solid rgba(220, 225, 244, 0.55);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+    transition: transform 0.1s ease, background-color 0.1s ease;
+    letter-spacing: 0.04em;
+}
+
+.play_button:hover {
+    transform: scale(1.04);
+    background-color: rgba(200, 16, 46, 0.85);
+    color: #ffffff;
+    border-bottom: 1.5px solid rgba(220, 225, 244, 0.55);
+}
+
+/* Character index grid */
+.character_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 14px;
+    margin-top: 14px;
+}
+
+.character_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 1.5px solid rgba(220, 225, 244, 0.4);
+    padding: 14px 10px 12px;
+    text-decoration: none;
+    color: #ffffff;
+    transition: transform 0.12s ease, border-color 0.12s ease, background-color 0.12s ease;
+}
+
+.character_card:hover {
+    transform: translateY(-2px);
+    border-color: #ffd166;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.character_card img {
+    width: 84px;
+    height: 84px;
+    object-fit: cover;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.06);
+    margin-bottom: 8px;
+    border: 2px solid rgba(220, 225, 244, 0.3);
+}
+
+.character_card .name {
+    font-family: 'MarvelFont', sans-serif;
+    font-size: 1em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    letter-spacing: 0.03em;
+}
+
+.character_card .role {
+    font-size: 0.78em;
+    color: #d6dbe8;
+    margin-top: 2px;
+}
+
+.role_section {
+    margin-top: 28px;
+}
+
+/* Per-character profile header — image + summary */
+.character_header {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+    margin: 6px 0 18px;
+    flex-wrap: wrap;
+}
+
+.character_header img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.06);
+    border: 2px solid rgba(220, 225, 244, 0.45);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+.character_header .meta {
+    flex: 1;
+    min-width: 240px;
+}
+
+.character_header .meta h1 {
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.character_header .meta p {
+    color: #f6f7fb;
+    margin-top: 8px;
+    font-size: 1em;
+}
+
+.stat_grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 14px;
+    margin: 12px 0 20px;
+    font-size: 0.95em;
+}
+
+.stat_grid .stat_label {
+    font-family: 'MarvelFont', sans-serif;
+    color: #ffd166;
+    font-size: 0.78em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+}
+
+.stat_grid .stat_value {
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 2px;
+}
+
+.ability_list {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-left: 4px solid #c8102e;
+    padding: 12px 16px;
+    margin: 8px 0 16px;
+}
+
+.ability_list ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.ability_list li {
+    font-family: 'MarvelFont', sans-serif;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+}
+
+.next_prev {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 26px;
+    padding-top: 16px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    font-family: 'MarvelFont', sans-serif;
+    font-size: 1em;
+}
+
+.next_prev a {
+    text-decoration: none;
+    border: none;
+    color: #ffd166;
+}
+
+.next_prev a:hover {
+    color: #ffffff;
+}
+
+/* Mobile tweaks */
+@media (max-width: 600px) {
+    .content_panel {
+        width: 92vw;
+        padding: 22px 18px;
+        margin: 3vh auto 4vh;
+    }
+
+    .content_panel h1 {
+        font-size: 2em;
+    }
+
+    .content_panel h2 {
+        font-size: 1.35em;
+    }
+
+    .character_header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .character_header .meta h1 {
+        text-align: center;
+    }
+}
