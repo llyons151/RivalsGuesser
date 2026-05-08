@@ -88,7 +88,8 @@ class ShareBox{
             "classic": "classicMode",
             "silhoutte": "silhoutteMode",
             "emoji": "emojiMode",
-            "ability": "abilityMode"
+            "ability": "abilityMode",
+            "pixelation": "pixelationMode"
         };
 
         // Check if mode exists in the translations and fetch the localized string

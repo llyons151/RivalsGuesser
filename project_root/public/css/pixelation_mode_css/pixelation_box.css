@@ -1,0 +1,88 @@
+.pixelation_contaner {
+    height: 500px;
+    width: 80vw;
+    max-width: 400px;
+    position: relative;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.7);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: 0px solid #DCE1F4;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pixelation_contaner::before {
+    content: '';
+    position: absolute;
+    top: -8%;
+    left: -15%;
+    right: -15%;
+    height: calc(100% + 20%);
+    background-image: url('../../_images/home_images/skinnyborder2.png');
+    background-size: 113% 99%;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    pointer-events: none;
+}
+
+.pixelation_header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: x-large;
+    color: #ffffff;
+    font-family: 'MarvelFont', Arial;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.pixelation_footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    color: #ffffff;
+    font-family: 'MarvelFont', Arial;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.pixelation_image_container {
+    margin-top: 35px;
+    margin-bottom: 50px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    background-color: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.pixelation_canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+    transition: filter 0.3s ease;
+}
+
+.pixelation_image_container:hover {
+    transform: scale(1.02);
+    transition: transform 0.3s ease;
+}

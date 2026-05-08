@@ -9,6 +9,7 @@ export const translations = {
         mode_silhouette: "Silhouette",
         mode_emoji: "Emoji",
         mode_character_ability: "Character Ability",
+        mode_pixelation: "Pixelation",
 
         aboutHeader: "About Us",
         aboutText1: "Rivaldle was conceived by two dedicated computer science students, Alanna and Luke, who share a deep passion for both programming and the world of Marvel. As lifelong Marvel fans, we've spent countless hours immersed in the Marvel Rivals universe, enjoying the thrilling challenges it provides. However, as avid players, we noticed there was something missing—a trivia game that allowed us to showcase our knowledge of the Marvel universe in a fun and engaging way. This realization sparked the creation of Rivaldle. We envisioned it as a project where we could blend our technical expertise with our love for Marvel, building something that could bring fans together while challenging them to test their knowledge on characters, events, and stories that have shaped the Marvel world over the decades.",
@@ -43,6 +44,7 @@ export const translations = {
         mode_silhouette: "Silueta",
         mode_emoji: "Emoji",
         mode_character_ability: "Habilidad de Personaje",
+        mode_pixelation: "Pixelado",
 
         aboutHeader: "Acerca de Nosotros",
         aboutText1: "Rivaldle fue concebido por dos estudiantes dedicados de ciencias de la computación, Alanna y Luke, quienes comparten una profunda pasión tanto por la programación como por el mundo de Marvel. Como fanáticos de Marvel de toda la vida, hemos pasado incontables horas inmersos en el universo de Marvel Rivals, disfrutando de los emocionantes desafíos que ofrece. Sin embargo, como jugadores ávidos, nos dimos cuenta de que faltaba algo: un juego de trivia que nos permitiera mostrar nuestro conocimiento del universo Marvel de una manera divertida y atractiva. Esta realización dio origen a la creación de Rivaldle. Lo concebimos como un proyecto en el que pudiéramos combinar nuestra experiencia técnica con nuestro amor por Marvel, creando algo que pudiera reunir a los fanáticos mientras los desafiaba a poner a prueba su conocimiento sobre personajes, eventos e historias que han dado forma al mundo de Marvel a lo largo de las décadas.",
@@ -78,6 +80,7 @@ export const translations = {
         mode_silhouette: "Silhouette",
         mode_emoji: "Emoji",
         mode_character_ability: "Capacité du personnage",
+        mode_pixelation: "Pixelisé",
 
 
         aboutHeader: "À propos de nous",
@@ -116,6 +119,7 @@ export const translations = {
         mode_silhouette: "Silhouette",
         mode_emoji: "Emoji",
         mode_character_ability: "Charakterfähigkeit",
+        mode_pixelation: "Pixel",
 
 
         aboutHeader: "Über uns",
@@ -154,6 +158,7 @@ export const translations = {
         mode_silhouette: "轮廓",
         mode_emoji: "表情符号",
         mode_character_ability: "角色能力",
+        mode_pixelation: "像素",
 
 
         aboutHeader: "关于我们",

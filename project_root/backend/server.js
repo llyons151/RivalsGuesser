@@ -15,6 +15,7 @@ const serverID = Math.floor(1000000000 + Math.random() * 9000000000).toString();
 let daily_classic_character = characters[Math.floor(Math.random() * characters.length)];
 let daily_silhouette_character = characters[Math.floor(Math.random() * characters.length)];
 let daily_emoji_character = characters[Math.floor(Math.random() * characters.length)];
+let daily_pixelation_character = characters[Math.floor(Math.random() * characters.length)];
 
 let daily_ability_character = characters[Math.floor(Math.random() * characters.length)];
 let daily_character_ability = Math.floor(Math.random() * daily_ability_character.translations['en'].abilities.length);
@@ -30,6 +31,7 @@ function checkAndResetCharacters() {
     daily_classic_character = characters[Math.floor(Math.random() * characters.length)];
     daily_silhouette_character = characters[Math.floor(Math.random() * characters.length)];
     daily_emoji_character = characters[Math.floor(Math.random() * characters.length)];
+    daily_pixelation_character = characters[Math.floor(Math.random() * characters.length)];
     daily_ability_character = characters[Math.floor(Math.random() * characters.length)];
     daily_character_ability = Math.floor(Math.random() * daily_ability_character.translations['en'].abilities.length);
     lastUpdatedDate = today;
@@ -78,6 +80,10 @@ app.get('/daily_emoji_character', (req, res) => {
   res.json(daily_emoji_character);
 })
 
+app.get('/daily_pixelation_character', (req, res) => {
+  res.json(daily_pixelation_character);
+})
+
 app.get('/daily_ability_character', (req, res) => {
   res.json(daily_ability_character);
 })
@@ -111,6 +117,10 @@ app.get('/silhouette', (req, res) => {
 
 app.get('/emoji', (req, res) => {
   res.sendFile(path.join(__dirname, '../pages/emoji_mode_page/index.html'));
+});
+
+app.get('/pixelation', (req, res) => {
+  res.sendFile(path.join(__dirname, '../pages/pixelation_mode_page/index.html'));
 });
 
 app.get('/character_ability', (req, res) => {

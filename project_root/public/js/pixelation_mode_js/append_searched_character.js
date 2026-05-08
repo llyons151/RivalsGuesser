@@ -5,16 +5,19 @@ class AppendSearchedCharacter {
 
     async initialize() {
         this.language = localStorage.getItem('language');
-        this.dailyCharacter = await this.fetchData('./daily_ability_character');
-        console.log(this.dailyCharacter)
-        this.loadStoredCharacters(); // Load stored characters on initialization
+        this.dailyCharacter = await this.fetchData('./daily_pixelation_character');
+        if (!this.dailyCharacter) {
+            console.error('Failed to load dailyCharacter data.');
+            return;
+        }
+        this.loadStoredCharacters();
         this.listenForCharacterSelect();
     }
 
     listenForCharacterSelect() {
         document.addEventListener('characterSelected', (event) => {
             this.receivedCharacter = event.detail.character;
-            this.saveCharacterToLocalStorage(this.receivedCharacter); // Save the character
+            this.saveCharacterToLocalStorage(this.receivedCharacter);
             this.appendSearchedCharacterBox();
         });
     }
@@ -32,6 +35,11 @@ class AppendSearchedCharacter {
 
     appendSearchedCharacterBox(character = this.receivedCharacter) {
         this.searchedCharacterBoxContainer = document.getElementById('searched_characters_container');
+        if (!this.searchedCharacterBoxContainer) {
+            console.error('Container element not found.');
+            return;
+        }
+
         const newBox = document.createElement('div');
         newBox.className = 'searched_character_box';
 
@@ -54,10 +62,10 @@ class AppendSearchedCharacter {
             this.broadcastCorrectCharacter();
             this.appendConfetti();
             newBox.style.backgroundColor = '#4caf50';
-            newBox.style.border = '3px solid #7aff6f'; 
+            newBox.style.border = '3px solid #7aff6f';
         } else {
-            newBox.style.backgroundColor = '#d32f2f'; 
-            newBox.style.border = '3px solid #ff3c3b'; 
+            newBox.style.backgroundColor = '#d32f2f';
+            newBox.style.border = '3px solid #ff3c3b';
             newBox.classList.add('shake');
 
             setTimeout(() => {
@@ -70,9 +78,9 @@ class AppendSearchedCharacter {
         const event = new CustomEvent('correctCharacterGuessed', {
             detail: {
                 character: this.dailyCharacter,
-                mode: 'pixelation',
+                mode: 'classic',
                 tries: this.getStoredCharacterCount()
-            }
+            },
         });
         document.dispatchEvent(event);
     }
@@ -83,17 +91,9 @@ class AppendSearchedCharacter {
         return storedCharacters.length;
     }
 
-    appendConfetti() {
-        confetti({
-            particleCount: 250,
-            spread: 120,
-            origin: { y: 0.7 },
-        });
-    }
-
     getCurrentPageKey() {
-        const path = window.location.pathname; // Get the current page path
-        return `searched_characters_${path}`; // Use the path as part of the key
+        const path = window.location.pathname;
+        return `searched_characters_${path}`;
     }
 
     saveCharacterToLocalStorage(character) {
@@ -102,7 +102,7 @@ class AppendSearchedCharacter {
         storedCharacters.push(character);
         localStorage.setItem(pageKey, JSON.stringify(storedCharacters));
     }
-    
+
     loadStoredCharacters() {
         const pageKey = this.getCurrentPageKey();
         const storedCharacters = JSON.parse(localStorage.getItem(pageKey)) || [];
@@ -111,6 +111,13 @@ class AppendSearchedCharacter {
         });
     }
 
+    appendConfetti() {
+        confetti({
+            particleCount: 250,
+            spread: 120,
+            origin: { y: 0.7 },
+        });
+    }
 }
 
 const appendSearchedCharacter = new AppendSearchedCharacter();

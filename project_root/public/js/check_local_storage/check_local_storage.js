@@ -45,6 +45,11 @@ async function checkAndClearLocalStorage() {
         const todaysAbilityNumber = localStorage.getItem('todaysAbilityNumber');
         const yesterdaysAbilityNumber = localStorage.getItem('yesterdaysAbilityNumber');
 
+        const pixelation_streak = localStorage.getItem('pixelation_streak');
+        const best_pixelation_streak = localStorage.getItem('best_pixelation_streak');
+        const todaysPixelationNumber = localStorage.getItem('todaysPixelationNumber');
+        const yesterdaysPixelationNumber = localStorage.getItem('yesterdaysPixelationNumber');
+
         const selectedLanguage = localStorage.getItem('language');
 
 
@@ -77,6 +82,11 @@ async function checkAndClearLocalStorage() {
             if (best_ability_streak) localStorage.setItem('best_ability_streak', best_ability_streak);
             if (todaysAbilityNumber) localStorage.setItem('todaysAbilityNumber', todaysAbilityNumber);
             if (yesterdaysAbilityNumber) localStorage.setItem('yesterdaysAbilityNumber', yesterdaysAbilityNumber);
+
+            if (pixelation_streak) localStorage.setItem('pixelation_streak', pixelation_streak);
+            if (best_pixelation_streak) localStorage.setItem('best_pixelation_streak', best_pixelation_streak);
+            if (todaysPixelationNumber) localStorage.setItem('todaysPixelationNumber', todaysPixelationNumber);
+            if (yesterdaysPixelationNumber) localStorage.setItem('yesterdaysPixelationNumber', yesterdaysPixelationNumber);
 
             if (selectedLanguage) localStorage.setItem('language', selectedLanguage);
             localStorage.setItem('storedID', serverID); // Do not change
