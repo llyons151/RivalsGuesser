@@ -10,7 +10,7 @@ export const profiles = [
         name: "Captain America",
         file: "CaptainAmerica",
         role: "Vanguard",
-        hp: 675,
+        hp: 575,
         affiliation: "Avengers",
         year: 1941,
         species: "Human",
@@ -19,16 +19,16 @@ export const profiles = [
         emoji: ["⭐", "🕰️", "🛡️", "🇺🇸"],
         origin: "Steve Rogers debuted in <em>Captain America Comics</em> #1 in March 1941, drawn by Jack Kirby and written by Joe Simon. The cover famously showed him punching Hitler in the face nine months before the United States entered the Second World War. He remains, structurally, the oldest character in the <em>Marvel Rivals</em> roster.",
         history: "The Captain America we play in <em>Marvel Rivals</em> is post-thaw Steve Rogers — the man who slept through twenty years of the twentieth century and woke up to the Avengers. Most of his defining stories come from Ed Brubaker's run in the 2000s (the Winter Soldier arc, his apparent assassination, his brief replacement by Bucky), and from his repeated use as a stand-in for the United States in stories that explicitly question what that means. Rivaldle's database lists Captain America as 1941 because the field tracks the character's first comic appearance, not the in-universe present.",
-        rivals: "In <em>Marvel Rivals</em>, Captain America is one of the highest-HP Vanguards in the game at 675 and the prototype mobility tank. He does not deal a lot of damage. He does not particularly heal himself. What he does is run faster than other Vanguards, get to flanking Strategists before his team has finished pinging, and create the kind of pressure on the back line that lets his Duelists work the front. The shield throw is the visible element of his kit; the actual reason he is good is his movement.",
+        rivals: "In <em>Marvel Rivals</em>, Captain America is a 575 HP Vanguard and the prototype mobility tank. He does not deal a lot of damage. He does not particularly heal himself. What he does is run faster than other Vanguards, get to flanking Strategists before his team has finished pinging, and create the kind of pressure on the back line that lets his Duelists work the front. The shield throw is the visible element of his kit; the actual reason he is good is his movement.",
         abilitiesNote: "Most of the kit revolves around the shield. Sentinel Strike and Liberty Rush are the basic attack and dash, Leading Dash is the team-wide speed boost, and Freedom Charge is the ultimate that turns the whole team into a moving wall. Vibranium Energy Saw is the new addition that gives him an answer to Strategists who refuse to peel.",
-        spotting: "In Silhouette and Pixelation modes, Captain America is one of the easier reads — round shield silhouette, A-frame pose, blue-and-red palette. In Emoji Mode, the 🇺🇸 flag is essentially a tell; we use it deliberately because the alternative is making the puzzle unsolvable. In Classic Mode, his 1941 origin year and 675 HP narrow him quickly: there are only two heroes from before 1950 and only a handful with HP above 600. Combine those two columns and you usually have the answer in two guesses."
+        spotting: "In Silhouette and Pixelation modes, Captain America is one of the easier reads — round shield silhouette, A-frame pose, blue-and-red palette. In Emoji Mode, the 🇺🇸 flag is essentially a tell; we use it deliberately because the alternative is making the puzzle unsolvable. In Classic Mode, his 1941 origin year is the strongest single fingerprint — only Winter Soldier shares it, and an HP-up arrow on a Winter Soldier guess (275 → 575) confirms Cap. His 575 HP is currently the lowest of any Vanguard, which makes a Vanguard role with HP-down arrows pointing into the 500s also a near-immediate read."
     },
     {
         slug: "doctor-strange",
         name: "Doctor Strange",
         file: "DoctorStrange",
         role: "Vanguard",
-        hp: 600,
+        hp: 675,
         affiliation: "Avengers",
         year: 1963,
         species: "Human",
@@ -37,16 +37,16 @@ export const profiles = [
         emoji: ["👁️", "📖", "✨", "🧙‍♂️"],
         origin: "Stephen Strange first appeared in <em>Strange Tales</em> #110 in 1963, written by Stan Lee and drawn by Steve Ditko. Ditko's art for the early Doctor Strange runs is the foundation for almost every Marvel mystic that came after — the floating planes, the dimensional eyes, the geometry that does not quite obey three-dimensional logic.",
         history: "Doctor Strange's most important comic runs are the Ditko originals, Roger Stern's 1980s tenure, and Jason Aaron's 2015 run that recast him as a horror protagonist. The character's central tension is the same in every era: a brilliant surgeon whose ego cost him his hands, who replaced his old life with a magical practice that demands the same precision. He is not a hero in the mold of the other Avengers — he is a professional, and the work is real.",
-        rivals: "In <em>Marvel Rivals</em>, Doctor Strange is a 600 HP Vanguard who plays nothing like the other Vanguards. He hovers, he shields, and he makes the rest of the team's positioning more flexible by literally moving them. His skill ceiling is among the highest in the game because the Cloak of Levitation lets him reposition mid-fight in ways no other Vanguard can replicate. New players try to play him as a melee tank and bounce off the role; experienced players treat him as a flying area-control specialist.",
+        rivals: "In <em>Marvel Rivals</em>, Doctor Strange is a 675 HP Vanguard who plays nothing like the other Vanguards. He hovers, he shields, and he makes the rest of the team's positioning more flexible by literally moving them. His skill ceiling is among the highest in the game because the Cloak of Levitation lets him reposition mid-fight in ways no other Vanguard can replicate. New players try to play him as a melee tank and bounce off the role; experienced players treat him as a flying area-control specialist.",
         abilitiesNote: "Daggers of Denak and Maelstrom of Madness are his core damage. Pentagram of Farallah and Shield of the Seraphim are the survivability kit. Eye of Agamotto, his ultimate, is the team-fight reset button — it removes a window of enemy decision-making and forces your team to commit a follow-up while the enemy is locked.",
-        spotting: "Doctor Strange's silhouette is one of the most distinctive in the roster — the cape flaring wide, the outstretched arms, the geometric backdrop. In Emoji Mode, the eye and book pairing is a strong cue. In Classic Mode, the Vanguard role plus 600 HP plus 1963 origin year narrows the search: only Doctor Strange, Iron Man, and Magneto are 1963 Marvel debuts in the roster, and Iron Man and Magneto have very different HP values."
+        spotting: "Doctor Strange's silhouette is one of the most distinctive in the roster — the cape flaring wide, the outstretched arms, the geometric backdrop. In Emoji Mode, the eye and book pairing is a strong cue. In Classic Mode, the Vanguard role plus 675 HP plus 1963 origin year narrows the search: only Doctor Strange, Iron Man, and Magneto are 1963 Marvel debuts in the roster, and Iron Man and Magneto have very different HP values."
     },
     {
         slug: "groot",
         name: "Groot",
         file: "Groot",
         role: "Vanguard",
-        hp: 700,
+        hp: 850,
         affiliation: "Guardians",
         year: 1960,
         species: "Flora Colossus",
@@ -55,16 +55,16 @@ export const profiles = [
         emoji: ["🌱", "🌌", "🌳", "🪵"],
         origin: "Groot first appeared in <em>Tales to Astonish</em> #13 in 1960, three years before the modern Marvel age really started. The original Groot was a monster-of-the-month from a pre-superhero anthology — an alien tree from Planet X who came to Earth, threatened a small town, and was driven off. He stayed shelved for decades.",
         history: "The Groot we recognize today is a 2006 Keith Giffen reinvention from <em>Annihilation: Conquest</em>, where he was retooled as a Guardian of the Galaxy alongside Rocket. The James Gunn films built on the Giffen version and locked the character into the cultural form he has today: a sentient tree with limited speech, infinite regeneration, and one of the most reliable emotional payoffs in the entire Marvel catalog.",
-        rivals: "Groot in <em>Marvel Rivals</em> is the highest-HP Vanguard in the game at 700, tied only with the Thing. He is the wall-builder. His kit is built around denying space — placing Ironwood Walls to bisect a room, dropping Thornlash Walls to cut off retreats, and using Strangling Prison to lock targets in place while his Duelists collapse on them. He is the single best counter to high-mobility Duelists because his walls do not care how fast you are.",
+        rivals: "Groot in <em>Marvel Rivals</em> is the single highest-HP hero in the entire game at 850 — no other character carries that much. He is the wall-builder. His kit is built around denying space — placing Ironwood Walls to bisect a room, dropping Thornlash Walls to cut off retreats, and using Strangling Prison to lock targets in place while his Duelists collapse on them. He is the single best counter to high-mobility Duelists because his walls do not care how fast you are.",
         abilitiesNote: "Vine Strike is the basic attack; Spore Bomb is his ranged pressure tool. The walls are the defining mechanic — Ironwood for hard cover, Thornlash for damage, and Strangling Prison as the ultimate lockdown. Wall placement is a learned skill, and the difference between a 30% Groot and a 60% Groot is almost entirely how well they read the map.",
-        spotting: "Groot is unmistakable in Silhouette and Pixelation Modes — broad, hulking, brown with green accents. In Emoji Mode, the tree emojis are a giveaway. In Classic Mode, the Flora Colossus species cell is unique to him — if any guess returns a yellow or red on species against your Groot guess, you can rule him out immediately for every other character. His 700 HP is shared only with the Thing, so the species column resolves the ambiguity."
+        spotting: "Groot is unmistakable in Silhouette and Pixelation Modes — broad, hulking, brown with green accents. In Emoji Mode, the tree emojis are a giveaway. In Classic Mode, the Flora Colossus species cell is unique to him — if any guess returns a yellow or red on species against your Groot guess, you can rule him out immediately for every other character. His 850 HP is also unique in the database; an HP-up arrow that points above 750 essentially names him in one column."
     },
     {
         slug: "hulk",
         name: "Hulk",
         file: "Hulk",
         role: "Vanguard",
-        hp: 650,
+        hp: 750,
         affiliation: "Avengers",
         year: 1962,
         species: "Human",
@@ -73,7 +73,7 @@ export const profiles = [
         emoji: ["🧪", "💥", "💪", "💚"],
         origin: "Bruce Banner first transformed in <em>The Incredible Hulk</em> #1 in May 1962, written by Stan Lee and drawn by Jack Kirby. The first issue had him gray, not green — the printer's ink was inconsistent, and the editorial team locked in the now-iconic green by issue two.",
         history: "Sixty years of Hulk stories have produced more emotional registers for one character than almost any other Marvel hero. Peter David's 1980s and 1990s run is the gold standard for the integrated, intelligent Hulk. Greg Pak's <em>Planet Hulk</em> turned him into a science-fantasy gladiator. Al Ewing's <em>Immortal Hulk</em> (2018–2021) reinterpreted the character through cosmic horror and remains one of the most acclaimed Marvel runs of the modern era. The <em>Marvel Rivals</em> Hulk is closer to the cinematic Banner — a scientist who turns when angry, with a costume designed around his physics labs.",
-        rivals: "In <em>Marvel Rivals</em>, Hulk is the only Vanguard with a transformation mechanic baked into the core kit. He starts as Bruce Banner with a Gamma Ray Gun and a comparatively fragile body. He charges his transformation, pops Hulk form, and gains the 650 HP and brawler ultimate that the role expects. The Banner-to-Hulk transition is the entire skill expression of the character — knowing when to commit, when to wait, and when to retreat to refresh the timer.",
+        rivals: "In <em>Marvel Rivals</em>, Hulk is the only Vanguard with a transformation mechanic baked into the core kit. He starts as Bruce Banner with a Gamma Ray Gun and a comparatively fragile body. He charges his transformation, pops Hulk form, and gains the 750 HP and brawler ultimate that the role expects. The Banner-to-Hulk transition is the entire skill expression of the character — knowing when to commit, when to wait, and when to retreat to refresh the timer.",
         abilitiesNote: "Gamma Ray Gun is the Banner-form attack. Gamma Grenade is the displacement tool. Puny Banner, the ultimate, references the Hulk's most famous comic catchphrase about Loki and is the brawler-mode payoff: enormous melee throughput, area damage, and a knockback that scales with how close his target is.",
         spotting: "Hulk's silhouette is one of the most recognizable in pop culture — wide shoulders, low center of mass, fists ready. The green palette in Pixelation Mode is essentially a tell. In Classic Mode, his eye color array (Brown and Green) is unusual and helps confirm the guess; very few heroes carry two eye colors. His 1962 origin places him in the dense first-wave Marvel cluster alongside Thor and Spider-Man, so origin year alone is not enough to pin him down."
     },
@@ -82,7 +82,7 @@ export const profiles = [
         name: "Thor",
         file: "Thor",
         role: "Vanguard",
-        hp: 525,
+        hp: 600,
         affiliation: "Avengers",
         year: 1962,
         species: "Asgardian",
@@ -91,9 +91,9 @@ export const profiles = [
         emoji: ["☁️", "👑", "⚡", "🔨"],
         origin: "Thor debuted in <em>Journey into Mystery</em> #83 in August 1962, also by Lee and Kirby. The hammer Mjolnir was an elaborate thank-you to a real hammer — Kirby modeled the design on a thick-headed mason's tool he kept in his studio. The character's medical-doctor alter ego, Donald Blake, was the original framing device, though most modern stories quietly retire it.",
         history: "Thor's most enduring period is Walt Simonson's 1983–1987 run, which redefined the visual language of Asgard and made Beta Ray Bill canon. Jason Aaron's 2012–2019 run is the modern landmark, including <em>God of Thunder</em>, the Jane Foster Thor arc, and the long buildup to the <em>War of the Realms</em> event. Aaron's version is the one most readers under 35 picture when they hear the name, and it informs the costuming and emotional weight of the Rivals model.",
-        rivals: "Thor is a 525 HP Vanguard, lower than most of the role, which is a conscious design choice — he is the Vanguard who plays like a Duelist. The kit is built around the Awakening Rune resource, which charges through hammer throws and unlocks Storm Surge for empowered melee bursts. He rewards aggressive forward play. Players who try to anchor with him on a control point will find him underperforming; players who treat him as a brawling Vanguard with hammer-uppercut combos will find him excellent.",
+        rivals: "Thor is a 600 HP Vanguard, on the lower end of the tank pool, which is a conscious design choice — he is the Vanguard who plays like a Duelist. The kit is built around the Awakening Rune resource, which charges through hammer throws and unlocks Storm Surge for empowered melee bursts. He rewards aggressive forward play. Players who try to anchor with him on a control point will find him underperforming; players who treat him as a brawling Vanguard with hammer-uppercut combos will find him excellent.",
         abilitiesNote: "Mjolnir Bash and Hammer Throw are the two-pronged attack. Lightning Realm is the area denial. Storm Surge is the empowered window. God of Thunder, the ultimate, is one of the cleanest area-clear ultimates in the game and works well to break stalemates on objective points.",
-        spotting: "The horned-helmet silhouette is the giveaway in Silhouette and Pixelation Modes — only Loki, Hela, and the Thor model wear a winged or horned helm. The hammer is universal Thor iconography in Emoji Mode. In Classic Mode, his 525 HP is unusually low for a Vanguard and is the lowest in the role group; an HP-down arrow on a Vanguard guess pointing at 525 narrows the field to him almost immediately."
+        spotting: "The horned-helmet silhouette is the giveaway in Silhouette and Pixelation Modes — only Loki, Hela, and the Thor model wear a winged or horned helm. The hammer is universal Thor iconography in Emoji Mode. In Classic Mode, his 600 HP is the second-lowest in the Vanguard role (only Captain America at 575 is lower), and his Asgardian species cell narrows the field to three; combined with the Avengers affiliation, he's resolved in two columns."
     },
     {
         slug: "magneto",
@@ -163,7 +163,7 @@ export const profiles = [
         emoji: ["💪", "😊", "👊", "🪨"],
         origin: "Ben Grimm first appeared in <em>The Fantastic Four</em> #1 in November 1961, the same comic that started the modern Marvel universe. Lee and Kirby designed the character explicitly around the trope of the disfigured strongman with a soft heart — a Frankenstein's-monster archetype recast as a working-class New York pilot.",
         history: "The Thing's defining stories are mostly Fantastic Four stories — the Galactus trilogy, the Negative Zone arcs, John Byrne's 1980s run. He has had two solo series of note (one in the 1980s, one in 2006) and remains the emotional anchor of the team. The <em>Marvel Rivals</em> design leans on his Yancy Street Brooklyn-Jewish-uncle personality, which the ability names make explicit.",
-        rivals: "The Thing is one of two 700 HP Vanguards in the game (the other is Groot) and the most straightforward melee tank in the role. The kit is built around point control and chain CC. He does not have the wall-building of Groot or the mobility of Cap, but he has the highest single-target burst of the high-HP Vanguards. He is the Vanguard you pick when you want a single point won by attrition.",
+        rivals: "The Thing is the second-tankiest Vanguard at 700 HP, behind only Groot at 850, and the most straightforward melee tank in the role. The kit is built around point control and chain CC. He does not have the wall-building of Groot or the mobility of Cap, but he has the highest single-target burst of the high-HP Vanguards. He is the Vanguard you pick when you want a single point won by attrition.",
         abilitiesNote: "Rocky Jab and Stone Haymaker are the two-tier melee. Yancy Street Charge is the gap-closer with attached knockback. Embattled Leap is the vertical mobility tool. Clobberin' Time, his ultimate, is named after his comic catchphrase and triggers a high-damage AoE punch.",
         spotting: "The Thing is one of the easiest silhouette reads in the roster — wide shoulders, lumpy body, low center of mass, no hair. In Pixelation Mode the orange-rock palette is unique to him. In Classic Mode the Fantastic 4 affiliation narrows him to one of four heroes (Mr. Fantastic, Human Torch, Invisible Woman, Thing), and his 700 HP plus Vanguard role pin him down immediately within that group."
     },
@@ -190,7 +190,7 @@ export const profiles = [
         name: "Black Panther",
         file: "BlackPanther",
         role: "Duelist",
-        hp: 300,
+        hp: 275,
         affiliation: "Avengers",
         year: 1966,
         species: "Human",
@@ -199,9 +199,9 @@ export const profiles = [
         emoji: ["🌍", "👑", "🐾", "🖤"],
         origin: "T'Challa first appeared in <em>Fantastic Four</em> #52 in July 1966, created by Lee and Kirby. The character predates the Black Panther Party by a few months — the names share a coincidence rather than a lineage, though Marvel briefly renamed him 'Black Leopard' in the early 1970s to avoid the political association before reverting.",
         history: "Don McGregor's 1970s <em>Jungle Action</em> run is the first defining Black Panther material. Christopher Priest's 1998 series is the modern foundation — the bureaucratic, cold, strategic king who treats every team-up as a calculated alliance. Ta-Nehisi Coates' 2016 run reframed Wakanda's politics for a contemporary audience and remains the most cited modern run.",
-        rivals: "Black Panther is a 300 HP Duelist who plays as a flanking burst assassin. He is one of the few Duelists who carries 300 HP rather than the 250 baseline, which gives him the survivability to chain dives and disengage. Subtle Step is the invisibility-style mobility tool that defines his playstyle — he commits, lands a Spirit Rend, and pulls out before the enemy team can rotate to peel.",
+        rivals: "Black Panther is a 275 HP Duelist who plays as a flanking burst assassin. Subtle Step is the invisibility-style mobility tool that defines his playstyle — he commits, lands a Spirit Rend, and pulls out before the enemy team can rotate to peel. The kit is built around chaining a dive into a clean disengage, so survivability comes from movement timing rather than HP alone.",
         abilitiesNote: "Vibranium Claws are the basic melee attack. Spear Toss is the ranged poke. Spirit Rend is the burst-damage signature ability. Bast's Descent, the ultimate, is the dive payoff — he marks targets, disappears, and reappears on each marked enemy in sequence.",
-        spotting: "Black Panther is one of the harder silhouette reads because the body shape is generic — humanoid, athletic, no defining limb. The clue is the cape and the predatory crouch. In Pixelation Mode the all-black palette is the strongest cue, and in Emoji Mode the world-globe (🌍) is our gesture toward Wakanda. In Classic Mode his 300 HP plus Avengers affiliation plus Black hair narrows him quickly — most 300 HP Duelists are villain-aligned."
+        spotting: "Black Panther is one of the harder silhouette reads because the body shape is generic — humanoid, athletic, no defining limb. The clue is the cape and the predatory crouch. In Pixelation Mode the all-black palette is the strongest cue, and in Emoji Mode the world-globe (🌍) is our gesture toward Wakanda. In Classic Mode his Avengers affiliation plus Black hair plus Brown eyes narrow him quickly — pair with the 1966 origin year and he resolves in two columns."
     },
     {
         slug: "black-widow",
@@ -244,7 +244,7 @@ export const profiles = [
         name: "Hela",
         file: "Hela",
         role: "Duelist",
-        hp: 275,
+        hp: 250,
         affiliation: "Villain",
         year: 1964,
         species: "Asgardian",
@@ -253,9 +253,9 @@ export const profiles = [
         emoji: ["⚔️", "🖤", "👑", "💀"],
         origin: "Hela first appeared in <em>Journey into Mystery</em> #102 in March 1964, created by Lee and Kirby. The character is loosely modeled on the Norse goddess Hel, with the Marvel-specific addition of being Loki's daughter in the comics (though more recent stories have rewritten the relationship multiple times).",
         history: "Hela's most prominent comic appearances are Walt Simonson's 1980s Thor run, where she serves as the principal cosmic antagonist, and the various Ragnarok-themed event arcs of the 2000s. The 2017 film <em>Thor: Ragnarok</em> reintroduced the character to a mass audience and informs the Cate Blanchett-derived design choices in <em>Marvel Rivals</em>.",
-        rivals: "Hela is a 275 HP Duelist who plays as a long-range punisher. She does not have hard mobility tools — Astral Flock is her closest analog and is more of an evasion than a gap-closer. The kit is built around chaining Nightsword Thorn projectiles into the Soul Drainer secondary, with Piercing Night as a finisher. She is one of the more punishing Duelists for new players because her movement is unforgiving.",
+        rivals: "Hela is a 250 HP Duelist who plays as a long-range punisher. She does not have hard mobility tools — Astral Flock is her closest analog and is more of an evasion than a gap-closer. The kit is built around chaining Nightsword Thorn projectiles into the Soul Drainer secondary, with Piercing Night as a finisher. She is one of the more punishing Duelists for new players because her movement is unforgiving.",
         abilitiesNote: "Nightsword Thorn is her primary projectile. Soul Drainer is her sustain tool. Astral Flock is the evasive movement ability. Goddess of Death, her ultimate, summons her Asgardian death horde and severely buffs her teammates within range.",
-        spotting: "The horned crown is the silhouette tell, paired with Loki and Thor. The all-black-and-green palette is the Pixelation Mode signature. In Classic Mode her Asgardian species narrows the field to three (Thor, Loki, Hela), her 275 HP narrows it further (Thor is 525, Loki is 250), and her Villain affiliation cell pins her down — Loki is also Villain-affiliated, but Loki's gender is Fluid, which is unique to him."
+        spotting: "The horned crown is the silhouette tell, paired with Loki and Thor. The all-black-and-green palette is the Pixelation Mode signature. In Classic Mode her Asgardian species narrows the field to three (Thor, Loki, Hela), her 250 HP separates her from Thor at 600 and Loki at 275, and her Villain affiliation cell pins her down — Loki is also Villain-affiliated, but Loki's gender is Fluid, which is unique to him."
     },
     {
         slug: "iron-fist",
@@ -316,7 +316,7 @@ export const profiles = [
         name: "Moon Knight",
         file: "MoonKnight",
         role: "Duelist",
-        hp: 250,
+        hp: 275,
         affiliation: "Midnight Sons",
         year: 1975,
         species: "Human",
@@ -325,7 +325,7 @@ export const profiles = [
         emoji: ["🔮", "🎭", "🏺", "🌙"],
         origin: "Marc Spector first appeared in <em>Werewolf by Night</em> #32 in August 1975, created by Doug Moench and Don Perlin. He started as a one-off mercenary antagonist before being reimagined as the avatar of the Egyptian moon god Khonshu in the late 1970s.",
         history: "Moon Knight has had more reinventions than almost any Marvel character, including five major eras: the Bill Sienkiewicz 1980s run that established his visual signature; the Charlie Huston 2006 series that emphasized the dissociative-identity-disorder angle; the Brian Wood and Warren Ellis runs of the 2010s; the Jeff Lemire <em>Moon Knight</em> series that cemented the modern psychological framing; and Jed MacKay's 2021 series. The <em>Marvel Rivals</em> design pulls primarily from the Lemire and MacKay eras.",
-        rivals: "Moon Knight is a 250 HP Duelist whose kit is the most projectile-centric in the role group. Crescent Dart is a bouncing projectile — it ricochets between enemies and walls — and the entire kit rewards pre-aiming bounces rather than direct line-of-sight shots. He has one of the highest damage ceilings in the role for players who learn his geometry and one of the lowest for players who treat him as a hitscan character.",
+        rivals: "Moon Knight is a 275 HP Duelist whose kit is the most projectile-centric in the role group. Crescent Dart is a bouncing projectile — it ricochets between enemies and walls — and the entire kit rewards pre-aiming bounces rather than direct line-of-sight shots. He has one of the highest damage ceilings in the role for players who learn his geometry and one of the lowest for players who treat him as a hitscan character.",
         abilitiesNote: "Crescent Dart and Moon Blade are his two damage tools. Night Glider is the gap-closer. Rising Leap and Moonlight Hook are his vertical mobility. Hand of Khonshu, his ultimate, summons a beam of moonlight that follows a fixed path and punishes positioning rather than rewarding aim.",
         spotting: "Moon Knight's all-white costume is the strongest single Pixelation cue in the entire roster — no other Marvel hero is dressed in solid white. In Emoji Mode the moon icon is essentially literal. In Classic Mode the Midnight Sons affiliation is unique to him within this roster, so a green affiliation cell on a Moon Knight guess is the answer instantly."
     },
@@ -505,16 +505,16 @@ export const profiles = [
         emoji: ["🐺", "⚔️", "🛡️", "🦾"],
         origin: "Logan first appeared in <em>The Incredible Hulk</em> #180 in October 1974, created by Roy Thomas, Len Wein, and John Romita Sr. He was originally a Hulk antagonist for the Canadian government before being recruited into the new X-Men team in <em>Giant-Size X-Men</em> #1 the following year.",
         history: "Wolverine has had more solo titles, miniseries, and team appearances than any other X-Man. The defining runs are Chris Claremont's <em>Uncanny X-Men</em> tenure, the Frank Miller four-issue limited series in 1982, the Mark Millar <em>Old Man Logan</em> arc in 2008, and Jason Aaron's various Wolverine series across the 2000s and 2010s. The Rivals design uses the classic yellow-and-blue costume.",
-        rivals: "Wolverine is the highest-HP Duelist in the game at 350 — a deliberate exception to the role's typical 250–275 bracket. The kit is built around regeneration, sustained damage, and Berserker Rage windows that empower his close-range output. He is the Duelist most likely to win a 1v1 in the role group and least mobile in it; he commits to fights and trusts his sustain to carry him through.",
+        rivals: "Wolverine is one of the highest-HP Duelists in the game at 350 — a deliberate exception to the role's typical 250–275 bracket, and second only to Mister Fantastic at 375 in the role. The kit is built around regeneration, sustained damage, and Berserker Rage windows that empower his close-range output. He is the Duelist most likely to win a 1v1 in the role group and least mobile in it; he commits to fights and trusts his sustain to carry him through.",
         abilitiesNote: "Savage Claw and Vicious Rampage are his core damage. Feral Leap is the gap-closer. Undying Animal is his survivability button. Regenerative Healing Factor is the passive that defines him. Berserker Rage is the empowered window. Last Stand, the ultimate, is the desperation move — he commits to a high-damage burst window.",
-        spotting: "Wolverine's 350 HP is shared only with Mister Fantastic in the entire database, and they have very different roles, species, and affiliations. That single HP cell is one of the strongest narrowing fields in the database. The yellow-and-blue costume is the Pixelation tell. In Emoji Mode the wolf icon is a deliberate misdirect — Wolverine is a mutant, not a wolf, but the silhouette association is the obvious mental shortcut."
+        spotting: "Wolverine's 350 HP is unique in the database — Mister Fantastic at 375 is the closest neighbor, and no one else carries 350 exactly. That single HP cell is one of the strongest narrowing fields in the entire database. The yellow-and-blue costume is the Pixelation tell. In Emoji Mode the wolf icon is a deliberate misdirect — Wolverine is a mutant, not a wolf, but the silhouette association is the obvious mental shortcut."
     },
     {
         slug: "mister-fantastic",
         name: "Mister Fantastic",
         file: "MisterFantastic",
         role: "Duelist",
-        hp: 350,
+        hp: 375,
         affiliation: "Fantastic 4",
         year: 1961,
         species: "Human",
@@ -523,9 +523,9 @@ export const profiles = [
         emoji: ["🧑‍🔬", "🔵", "🧠", "🔬"],
         origin: "Reed Richards first appeared in <em>The Fantastic Four</em> #1 in November 1961, created by Stan Lee and Jack Kirby. The original Fantastic Four was Marvel's response to DC's Justice League and the comic that started the modern Marvel age — its bestselling success funded the early Spider-Man, Hulk, and X-Men launches.",
         history: "The Fantastic Four runs that define Reed Richards are the Lee-Kirby originals, John Byrne's 1980s tenure, Mark Waid and Mike Wieringo's 2000s run, and Jonathan Hickman's 2010 reboot. Hickman's run in particular reframes Reed as the most alarming superhero in Marvel — a man whose intelligence makes him morally unreliable — and the design through-line in the <em>Marvel Rivals</em> kit reflects the calculating-genius framing.",
-        rivals: "Mister Fantastic is a 350 HP Duelist who plays as a stretchy bruiser. The kit is built around elongation — Stretch Punch is the basic, Distended Grip is the pull-in, Flexible Elongation is the long-range alternative. He has unusually high HP for a Duelist, tied with Wolverine, but his playstyle is much more positional. He fights at medium range and rewards players who manage cooldowns rather than reflexes.",
+        rivals: "Mister Fantastic is a 375 HP Duelist who plays as a stretchy bruiser. The kit is built around elongation — Stretch Punch is the basic, Distended Grip is the pull-in, Flexible Elongation is the long-range alternative. He has the highest HP of any Duelist in the role group, but his playstyle is much more positional than the high-HP framing suggests. He fights at medium range and rewards players who manage cooldowns rather than reflexes.",
         abilitiesNote: "Stretch Punch is the basic melee. Distended Grip pulls a target toward him. Flexible Elongation is the range extension. Reflexive Rubber is the damage absorption tool. Elastic Strength is the empowered burst. Brainiac Bounce, his ultimate, references the bouncing-rubber-body concept and is a high-mobility AoE move.",
-        spotting: "Mister Fantastic's gray-streaked Brown hair is unique in the database (only Doctor Strange shares the Brown-Grey array). His Fantastic 4 affiliation narrows him to four heroes, and his 350 HP narrows him within that group to one. In Pixelation Mode the blue-and-white costume is a tell, though it is similar to Invisible Woman's palette."
+        spotting: "Mister Fantastic's gray-streaked Brown hair is unique in the database (only Doctor Strange shares the Brown-Grey array). His Fantastic 4 affiliation narrows him to four heroes, and his 375 HP — the highest in the entire Duelist role — pins him down within that group instantly. In Pixelation Mode the blue-and-white costume is a tell, though it is similar to Invisible Woman's palette."
     },
     {
         slug: "human-torch",
@@ -604,7 +604,7 @@ export const profiles = [
         name: "Loki",
         file: "Loki",
         role: "Strategist",
-        hp: 250,
+        hp: 275,
         affiliation: "Villain",
         year: 1949,
         species: "Asgardian",
@@ -613,7 +613,7 @@ export const profiles = [
         emoji: ["🃏", "🟢", "👑", "🪄"],
         origin: "Loki Laufeyson first appeared in <em>Venus</em> #6 in August 1949 — a pre-Marvel Atlas Comics title with no continuity to the modern superhero universe. The Loki we recognize debuted in <em>Journey into Mystery</em> #85 in October 1962 alongside Thor, but the Rivaldle database tracks the 1949 first-appearance because that was the original publishing date for the character name.",
         history: "Walt Simonson's 1980s Thor run is the definitive Loki framing. Tom Hiddleston's portrayal in the MCU films and Disney+ series has reshaped the character's cultural form — most contemporary readers picture Hiddleston when they read Loki. The Kieron Gillen <em>Loki: Agent of Asgard</em> run from 2014 is the modern comic version of that anti-hero framing.",
-        rivals: "Loki is a 250 HP Strategist whose kit is built around deception. Doppelganger creates duplicates of him that act as decoys. Devious Exchange swaps his position with a teammate. Backstab is a melee burst. The kit is the highest-skill-floor Strategist in the game; players who do not actively use Doppelganger and Devious Exchange play him as an underpowered Strategist, and players who do play him as a tier-defining one.",
+        rivals: "Loki is a 275 HP Strategist whose kit is built around deception. Doppelganger creates duplicates of him that act as decoys. Devious Exchange swaps his position with a teammate. Backstab is a melee burst. The kit is the highest-skill-floor Strategist in the game; players who do not actively use Doppelganger and Devious Exchange play him as an underpowered Strategist, and players who do play him as a tier-defining one.",
         abilitiesNote: "Mystical Missile is the basic ranged. Regeneration Domain is the team heal. Doppelganger is the decoy. Devious Exchange is the swap. Backstab is the burst. Deception is the disguise — he can mimic an enemy hero. God of Mischief, his ultimate, conjures a chaos zone that triggers all his other abilities at once.",
         spotting: "Loki's gender cell is the only 'Fluid' entry in the database — a single-field fingerprint. The horned helmet is the silhouette tell, paired with Hela and Thor. The 1949 origin year is unique to him. Any one of those three fields resolves Classic Mode in one guess."
     },
@@ -640,7 +640,7 @@ export const profiles = [
         name: "Mantis",
         file: "Mantis",
         role: "Strategist",
-        hp: 275,
+        hp: 250,
         affiliation: "Guardians",
         year: 1973,
         species: "Empath",
@@ -649,7 +649,7 @@ export const profiles = [
         emoji: ["🌸", "😌", "👾", "🌌"],
         origin: "Mantis first appeared in <em>Avengers</em> #112 in June 1973, created by Steve Englehart and Don Heck. She was conceived as the Celestial Madonna — a Vietnamese-German martial artist destined to give birth to the cosmic messiah. Marvel's most notable contribution-without-attribution since: she has appeared at DC under a different name due to a long contract dispute about who owned the character.",
         history: "Mantis' modern profile is overwhelmingly film-driven — Pom Klementieff's portrayal in the <em>Guardians of the Galaxy</em> films is what most contemporary readers picture. The Rivals design leans on the cinematic version: green skin, antennae, and the empathic touch as the central kit conceit.",
-        rivals: "Mantis is a 275 HP Strategist whose kit is the most heal-dense in the role group. Healing Flower drops a sustained-heal flower; Allied Inspiration buffs nearby teammates. The skill ceiling is in flower placement — well-placed flowers can sustain a position for an extended team fight; poorly placed flowers waste the cooldown. She is the most forgiving Strategist for new players.",
+        rivals: "Mantis is a 250 HP Strategist whose kit is the most heal-dense in the role group. Healing Flower drops a sustained-heal flower; Allied Inspiration buffs nearby teammates. The skill ceiling is in flower placement — well-placed flowers can sustain a position for an extended team fight; poorly placed flowers waste the cooldown. She is the most forgiving Strategist for new players.",
         abilitiesNote: "Life Energy Blast is the damage option. Healing Flower is the deployable heal. Allied Inspiration is the team buff. Spore Slumber is the CC sleep. Nature's Favor is the burst heal. Soul Resurgence, her ultimate, ressurects fallen teammates and is one of the few abilities in the game that reverses team-fight outcomes.",
         spotting: "Mantis' species cell is Empath — unique in the database — a one-guess fingerprint in Classic Mode. The pink-and-green palette is unusual in Pixelation Mode. In Emoji Mode the cherry blossom is a deliberate cue toward her Vietnamese-German heritage rather than the more obvious mantis insect, which would have been too literal."
     },
@@ -658,7 +658,7 @@ export const profiles = [
         name: "Cloak and Dagger",
         file: "CloakAndDagger",
         role: "Strategist",
-        hp: 250,
+        hp: 275,
         affiliation: "X-Men",
         year: 1982,
         species: "Mutant",
@@ -667,7 +667,7 @@ export const profiles = [
         emoji: ["🌘", "🔗", "🗡️", "🌌"],
         origin: "Cloak and Dagger first appeared in <em>The Spectacular Spider-Man</em> #64 in March 1982, created by Bill Mantlo and Ed Hannigan. They were two runaway teenagers — Tyrone Johnson and Tandy Bowen — who had been experimented on with synthetic drugs and developed light-and-shadow powers as a result.",
         history: "Cloak and Dagger have always been a pair, which is unusual for Marvel character licensing. They have had two solo series in the 1980s, frequent X-Men crossovers, and a 2018 Freeform TV series. The <em>Marvel Rivals</em> design treats them as a single unit — the player swaps between Cloak's dark stance and Dagger's light stance dynamically.",
-        rivals: "Cloak and Dagger is a 250 HP Strategist with the most unusual character switch mechanic in the role group. Cloak provides darkness-based mobility and disengage; Dagger provides light-based healing and damage. The kit rewards stance management — Dagger heals, Cloak escapes, and the swap window is the entire skill expression of the character.",
+        rivals: "Cloak and Dagger is a 275 HP Strategist with the most unusual character switch mechanic in the role group. Cloak provides darkness-based mobility and disengage; Dagger provides light-based healing and damage. The kit rewards stance management — Dagger heals, Cloak escapes, and the swap window is the entire skill expression of the character.",
         abilitiesNote: "Darkforce Cloak is the Cloak-stance primary. Light's Embrace is the Dagger-stance heal. Terror Cape is the Cloak CC. Dark Teleportation is the disengage. Eternal Bond, the ultimate, links the two halves of the character together for a brief duration of empowered output.",
         spotting: "Cloak and Dagger's gender cell is 'Other' — unique in the database (alongside Loki's 'Fluid'). Their dual eye color (Grey and Blue) and dual hair color (Black and Blonde) are tied to the two-character framing. In Emoji Mode the moon-link pairing is our cue toward the duality. In Classic Mode the affiliation is X-Men, narrowing them within the X-Men cluster by their 1982 origin year."
     },

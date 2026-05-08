@@ -20,7 +20,7 @@ const captainAmerica = new Person({
         role: "Vanguard",
         eyeColor: ["Blue"],
         hairColor: ["Blonde"],
-        hp: 675,
+        hp: 575,
         dateOfOrigin: 1941,
         emoji: ["⭐", "🕰️", "🛡️", "🇺🇸"],
         abilities: [
@@ -37,7 +37,7 @@ const captainAmerica = new Person({
         role: "Vanguardia",
         eyeColor: ["Azul"],
         hairColor: ["Rubio"],
-        hp: 675,
+        hp: 575,
         dateOfOrigin: 1941,
         emoji: ["⭐", "🕰️", "🛡️", "🇺🇸"],
         abilities: [
@@ -54,7 +54,7 @@ const captainAmerica = new Person({
         role: "Avant-garde",
         eyeColor: ["Bleu"],
         hairColor: ["Blonde"],
-        hp: 675,
+        hp: 575,
         dateOfOrigin: 1941,
         emoji: ["⭐", "🕰️", "🛡️", "🇺🇸"],
         abilities: [
@@ -71,7 +71,7 @@ const captainAmerica = new Person({
         role: "Vorreiter",
         eyeColor: ["Blau"],
         hairColor: ["Blonde"],
-        hp: 675,
+        hp: 575,
         dateOfOrigin: 1941,
         emoji: ["⭐", "🕰️", "🛡️", "🇺🇸"],
         abilities: [
@@ -88,7 +88,7 @@ const captainAmerica = new Person({
         role: "先锋",
         eyeColor: ["蓝色"],
         hairColor: ["金色"],
-        hp: 675,
+        hp: 575,
         dateOfOrigin: 1941,
         emoji: ["⭐", "🕰️", "🛡️", "🇺🇸"],
         abilities: [
@@ -108,7 +108,7 @@ const doctorStrange = new Person({
         role: "Vanguard",
         eyeColor: ["Green"],
         hairColor: ["Brown", "Grey"],
-        hp: 600,
+        hp: 675,
         dateOfOrigin: 1963,
         emoji: ["👁️", "📖", "✨", "🧙‍♂️"],
         abilities: [
@@ -125,7 +125,7 @@ const doctorStrange = new Person({
         role: "Vanguardia",
         eyeColor: ["Verde"],
         hairColor: ["Marrón", "Gris"],
-        hp: 600,
+        hp: 675,
         dateOfOrigin: 1963,
         emoji: ["👁️", "📖", "✨", "🧙‍♂️"],
         abilities: [
@@ -142,7 +142,7 @@ const doctorStrange = new Person({
         role: "Avant-garde",
         eyeColor: ["Vert"],
         hairColor: ["Marron", "Gris"],
-        hp: 600,
+        hp: 675,
         dateOfOrigin: 1963,
         emoji: ["👁️", "📖", "✨", "🧙‍♂️"],
         abilities: [
@@ -159,7 +159,7 @@ const doctorStrange = new Person({
         role: "Vorreiter",
         eyeColor: ["Grün"],
         hairColor: ["Braun", "Grau"],
-        hp: 600,
+        hp: 675,
         dateOfOrigin: 1963,
         emoji: ["👁️", "📖", "✨", "🧙‍♂️"],
         abilities: [
@@ -176,7 +176,7 @@ const doctorStrange = new Person({
         role: "先锋",
         eyeColor: ["绿色"],
         hairColor: ["棕色", "灰色"],
-        hp: 600,
+        hp: 675,
         dateOfOrigin: 1963,
         emoji: ["👁️", "📖", "✨", "🧙‍♂️"],
         abilities: [
@@ -196,7 +196,7 @@ const groot = new Person({
         role: "Vanguard",
         eyeColor: ["Green"],
         hairColor: ["None"],
-        hp: 700,
+        hp: 850,
         dateOfOrigin: 1960,
         emoji: ["🌱", "🌌", "🌳", "🪵"],
         abilities: [
@@ -213,7 +213,7 @@ const groot = new Person({
         role: "Vanguardia",
         eyeColor: ["Verde"],
         hairColor: ["Ninguno"],
-        hp: 700,
+        hp: 850,
         dateOfOrigin: 1960,
         emoji: ["🌱", "🌌", "🌳", "🪵"],
         abilities: [
@@ -230,7 +230,7 @@ const groot = new Person({
         role: "Avant-garde",
         eyeColor: ["Vert"],
         hairColor: ["Aucun"],
-        hp: 700,
+        hp: 850,
         dateOfOrigin: 1960,
         emoji: ["🌱", "🌌", "🌳", "🪵"],
         abilities: [
@@ -247,7 +247,7 @@ const groot = new Person({
         role: "Vorreiter",
         eyeColor: ["Grün"],
         hairColor: ["Keine"],
-        hp: 700,
+        hp: 850,
         dateOfOrigin: 1960,
         emoji: ["🌱", "🌌", "🌳", "🪵"],
         abilities: [
@@ -264,7 +264,7 @@ const groot = new Person({
         role: "先锋",
         eyeColor: ["绿色"],
         hairColor: ["无"],
-        hp: 700,
+        hp: 850,
         dateOfOrigin: 1960,
         emoji: ["🌱", "🌌", "🌳", "🪵"],
         abilities: [
@@ -284,7 +284,7 @@ const hulk = new Person({
         role: "Vanguard",
         eyeColor: ["Brown", "Green"],
         hairColor: ["Brown", "Black"],
-        hp: 650,
+        hp: 750,
         dateOfOrigin: 1962,
         emoji: ["🧪", "💥", "💪", "💚"],
         abilities: [
@@ -300,7 +300,7 @@ const hulk = new Person({
         role: "Vanguardia",
         eyeColor: ["Marrón", "Verde"],
         hairColor: ["Marrón", "Negro"],
-        hp: 650,
+        hp: 750,
         dateOfOrigin: 1962,
         emoji: ["🧪", "💥", "💪", "💚"],
         abilities: [
@@ -316,7 +316,7 @@ const hulk = new Person({
         role: "Avant-garde",
         eyeColor: ["Marron", "Vert"],
         hairColor: ["Marron", "Noir"],
-        hp: 650,
+        hp: 750,
         dateOfOrigin: 1962,
         emoji: ["🧪", "💥", "💪", "💚"],
         abilities: [
@@ -332,7 +332,7 @@ const hulk = new Person({
         role: "Vorreiter",
         eyeColor: ["Braun", "Grün"],
         hairColor: ["Braun", "Schwarz"],
-        hp: 650,
+        hp: 750,
         dateOfOrigin: 1962,
         emoji: ["🧪", "💥", "💪", "💚"],
         abilities: [
@@ -348,7 +348,7 @@ const hulk = new Person({
         role: "先锋",
         eyeColor: ["棕色", "绿色"],
         hairColor: ["棕色", "黑色"],
-        hp: 650,
+        hp: 750,
         dateOfOrigin: 1962,
         emoji: ["🧪", "💥", "💪", "💚"],
         abilities: [
@@ -367,7 +367,7 @@ const thor = new Person({
         role: "Vanguard",
         eyeColor: ["Blue"],
         hairColor: ["Blonde"],
-        hp: 525,
+        hp: 600,
         dateOfOrigin: 1962,
         emoji: ["☁️", "👑", "⚡", "🔨"],
         abilities: [
@@ -384,7 +384,7 @@ const thor = new Person({
         role: "Vanguardia",
         eyeColor: ["Azul"],
         hairColor: ["Rubio"],
-        hp: 525,
+        hp: 600,
         dateOfOrigin: 1962,
         emoji: ["☁️", "👑", "⚡", "🔨"],
         abilities: [
@@ -401,7 +401,7 @@ const thor = new Person({
         role: "Avant-garde",
         eyeColor: ["Bleu"],
         hairColor: ["Blonde"],
-        hp: 525,
+        hp: 600,
         dateOfOrigin: 1962,
         emoji: ["☁️", "👑", "⚡", "🔨"],
         abilities: [
@@ -418,7 +418,7 @@ const thor = new Person({
         role: "Vorreiter",
         eyeColor: ["Blau"],
         hairColor: ["Blonde"],
-        hp: 525,
+        hp: 600,
         dateOfOrigin: 1962,
         emoji: ["☁️", "👑", "⚡", "🔨"],
         abilities: [
@@ -435,7 +435,7 @@ const thor = new Person({
         role: "先锋",
         eyeColor: ["蓝色"],
         hairColor: ["金色"],
-        hp: 525,
+        hp: 600,
         dateOfOrigin: 1962,
         emoji: ["☁️", "👑", "⚡", "🔨"],
         abilities: [
@@ -895,7 +895,7 @@ const blackPanther = new Person({
         role: "Duelist",
         eyeColor: ["Brown"],
         hairColor: ["Black"],
-        hp: 300,
+        hp: 275,
         dateOfOrigin: 1966,
         emoji: ["🌍", "👑", "🐾", "🖤"],
         abilities: [
@@ -912,7 +912,7 @@ const blackPanther = new Person({
         role: "Duelista",
         eyeColor: ["Marrón"],
         hairColor: ["Negro"],
-        hp: 300,
+        hp: 275,
         dateOfOrigin: 1966,
         emoji: ["🌍", "👑", "🐾", "🖤"],
         abilities: [
@@ -929,7 +929,7 @@ const blackPanther = new Person({
         role: "Duelliste",
         eyeColor: ["Marron"],
         hairColor: ["Noir"],
-        hp: 300,
+        hp: 275,
         dateOfOrigin: 1966,
         emoji: ["🌍", "👑", "🐾", "🖤"],
         abilities: [
@@ -946,7 +946,7 @@ const blackPanther = new Person({
         role: "Duellant",
         eyeColor: ["Braun"],
         hairColor: ["Schwarz"],
-        hp: 300,
+        hp: 275,
         dateOfOrigin: 1966,
         emoji: ["🌍", "👑", "🐾", "🖤"],
         abilities: [
@@ -963,7 +963,7 @@ const blackPanther = new Person({
         role: "决斗者",
         eyeColor: ["棕色"],
         hairColor: ["黑色"],
-        hp: 300,
+        hp: 275,
         dateOfOrigin: 1966,
         emoji: ["🌍", "👑", "🐾", "🖤"],
         abilities: [
@@ -1159,7 +1159,7 @@ const hela = new Person({
         role: "Duelist",
         eyeColor: ["Green"],
         hairColor: ["None"],
-        hp: 275,
+        hp: 250,
         dateOfOrigin: 1964,
         emoji: ["⚔️", "🖤", "👑", "💀"],
         abilities: [
@@ -1516,7 +1516,7 @@ const moonKnight = new Person({
         role: "Duelist",
         eyeColor: ["Blue"],
         hairColor: ["None"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1975,
         emoji: ["🔮", "🎭", "🏺", "🌙"],
         abilities: [
@@ -1534,7 +1534,7 @@ const moonKnight = new Person({
         role: "Duelista",
         eyeColor: ["Azul"],
         hairColor: ["Ninguno"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1975,
         emoji: ["🔮", "🎭", "🏺", "🌙"],
         abilities: [
@@ -1552,7 +1552,7 @@ const moonKnight = new Person({
         role: "Duelliste",
         eyeColor: ["Bleu"],
         hairColor: ["Aucun"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1975,
         emoji: ["🔮", "🎭", "🏺", "🌙"],
         abilities: [
@@ -1570,7 +1570,7 @@ const moonKnight = new Person({
         role: "Duellant",
         eyeColor: ["Blau"],
         hairColor: ["Keine"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1975,
         emoji: ["🔮", "🎭", "🏺", "🌙"],
         abilities: [
@@ -1588,7 +1588,7 @@ const moonKnight = new Person({
         role: "决斗者",
         eyeColor: ["蓝色"],
         hairColor: ["无"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1975,
         emoji: ["🔮", "🎭", "🏺", "🌙"],
         abilities: [
@@ -2499,7 +2499,7 @@ const misterFantastic = new Person({
         role: "Duelist",
         eyeColor: ["Brown"],
         hairColor: ["Brown", "Grey"],
-        hp: 350,
+        hp: 375,
         dateOfOrigin: 1961,
         emoji: ["🧑‍🔬", "🔵", "🧠", "🔬"],
         abilities: [
@@ -2516,7 +2516,7 @@ const misterFantastic = new Person({
         role: "Duelista",
         eyeColor: ["Marrón"],
         hairColor: ["Marrón", "Gris"],
-        hp: 350,
+        hp: 375,
         dateOfOrigin: 1961,
         emoji: ["🧑‍🔬", "🔵", "🧠", "🔬"],
         abilities: [
@@ -2533,7 +2533,7 @@ const misterFantastic = new Person({
         role: "Duelliste",
         eyeColor: ["Marron"],
         hairColor: ["Marron", "Gris"],
-        hp: 350,
+        hp: 375,
         dateOfOrigin: 1961,
         emoji: ["🧑‍🔬", "🔵", "🧠", "🔬"],
         abilities: [
@@ -2550,7 +2550,7 @@ const misterFantastic = new Person({
         role: "Duellant",
         eyeColor: ["Braun"],
         hairColor: ["Braun", "Grau"],
-        hp: 350,
+        hp: 375,
         dateOfOrigin: 1961,
         emoji: ["🧑‍🔬", "🔵", "🧠", "🔬"],
         abilities: [
@@ -2567,7 +2567,7 @@ const misterFantastic = new Person({
         role: "决斗者",
         eyeColor: ["棕色"],
         hairColor: ["棕色", "灰色"],
-        hp: 350,
+        hp: 375,
         dateOfOrigin: 1961,
         emoji: ["🧑‍🔬", "🔵", "🧠", "🔬"],
         abilities: [
@@ -2941,7 +2941,7 @@ const loki = new Person({
         role: "Strategist",
         eyeColor: ["Green"],
         hairColor: ["Black"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1949,
         emoji: ["🃏", "🟢", "👑", "🪄"],
         abilities: [
@@ -2958,7 +2958,7 @@ const loki = new Person({
         role: "Estratega",
         eyeColor: ["Verde"],
         hairColor: ["Negro"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1949,
         emoji: ["🃏", "🟢", "👑", "🪄"],
         abilities: [
@@ -2975,7 +2975,7 @@ const loki = new Person({
         role: "Stratège",
         eyeColor: ["Vert"],
         hairColor: ["Noir"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1949,
         emoji: ["🃏", "🟢", "👑", "🪄"],
         abilities: [
@@ -2992,7 +2992,7 @@ const loki = new Person({
         role: "Stratege",
         eyeColor: ["Grün"],
         hairColor: ["Schwarz"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1949,
         emoji: ["🃏", "🟢", "👑", "🪄"],
         abilities: [
@@ -3009,7 +3009,7 @@ const loki = new Person({
         role: "战略家",
         eyeColor: ["绿色"],
         hairColor: ["黑色"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1949,
         emoji: ["🃏", "🟢", "👑", "🪄"],
         abilities: [
@@ -3117,7 +3117,7 @@ const mantis = new Person({
         role: "Strategist",
         eyeColor: ["Black"],
         hairColor: ["Black"],
-        hp: 275,
+        hp: 250,
         dateOfOrigin: 1973,
         emoji: ["🌸", "😌", "👾", "🌌"],
         abilities: [
@@ -3135,7 +3135,7 @@ const mantis = new Person({
         role: "Estratega",
         eyeColor: ["Negro"],
         hairColor: ["Negro"],
-        hp: 275,
+        hp: 250,
         dateOfOrigin: 1973,
         emoji: ["🌸", "😌", "👾", "🌌"],
         abilities: [
@@ -3153,7 +3153,7 @@ const mantis = new Person({
         role: "Stratège",
         eyeColor: ["Noir"],
         hairColor: ["Noir"],
-        hp: 275,
+        hp: 250,
         dateOfOrigin: 1973,
         emoji: ["🌸", "😌", "👾", "🌌"],
         abilities: [
@@ -3171,7 +3171,7 @@ const mantis = new Person({
         role: "Stratege",
         eyeColor: ["Schwarz"],
         hairColor: ["Schwarz"],
-        hp: 275,
+        hp: 250,
         dateOfOrigin: 1973,
         emoji: ["🌸", "😌", "👾", "🌌"],
         abilities: [
@@ -3189,7 +3189,7 @@ const mantis = new Person({
         role: "战略家",
         eyeColor: ["黑色"],
         hairColor: ["黑色"],
-        hp: 275,
+        hp: 250,
         dateOfOrigin: 1973,
         emoji: ["🌸", "😌", "👾", "🌌"],
         abilities: [
@@ -3210,7 +3210,7 @@ const cloakAndDagger = new Person({
         role: "Strategist",
         eyeColor: ["Grey", "Blue"],
         hairColor: ["Black", "Blonde"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1982,
         emoji: ["🌘", "🔗", "🗡️", "🌌"],
         abilities: [
@@ -3227,7 +3227,7 @@ const cloakAndDagger = new Person({
         role: "Estratega",
         eyeColor: ["Gris", "Azul"],
         hairColor: ["Negro", "Rubio"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1982,
         emoji: ["🌘", "🔗", "🗡️", "🌌"],
         abilities: [
@@ -3245,7 +3245,7 @@ const cloakAndDagger = new Person({
         role: "Stratège",
         eyeColor: ["Gris", "Bleu"],
         hairColor: ["Noir", "Blonde"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1982,
         emoji: ["🌘", "🔗", "🗡️", "🌌"],
         abilities: [
@@ -3263,7 +3263,7 @@ const cloakAndDagger = new Person({
         role: "Stratege",
         eyeColor: ["Grau", "Blau"],
         hairColor: ["Schwarz", "Blonde"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1982,
         emoji: ["🌘", "🔗", "🗡️", "🌌"],
         abilities: [
@@ -3280,7 +3280,7 @@ const cloakAndDagger = new Person({
         role: "战略家",
         eyeColor: ["灰色", "蓝色"],
         hairColor: ["黑色", "金色"],
-        hp: 250,
+        hp: 275,
         dateOfOrigin: 1982,
         emoji: ["🌘", "🔗", "🗡️", "🌌"],
         abilities: [
