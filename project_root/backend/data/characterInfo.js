@@ -3560,6 +3560,798 @@ const ultron = new Person({
     }
 });
 
+const angela = new Person({
+    en: {
+        name: "Angela",
+        gender: "Female",
+        species: "Asgardian",
+        affiliation: "Guardians of the Galaxy",
+        role: "Vanguard",
+        eyeColor: ["Gold", "White"],
+        hairColor: ["Red"],
+        hp: 550,
+        dateOfOrigin: 1993,
+        emoji: ["🪽", "⚔️", "🛡️", "🌟"],
+        abilities: [
+            "SPEAR OF ICHORS", "AXES OF ICHORS", "SHIELDED STANCE",
+            "ASSASSIN'S CHARGE", "WINGBLADE ASCENT", "HEVEN'S RETRIBUTION"
+        ],
+        ult: "HEVEN'S RETRIBUTION"
+    },
+    es: {
+        name: "Angela",
+        gender: "Femenino",
+        species: "Asgardiana",
+        affiliation: "Guardianes de la Galaxia",
+        role: "Vanguardia",
+        eyeColor: ["Dorado", "Blanco"],
+        hairColor: ["Rojo"],
+        hp: 550,
+        dateOfOrigin: 1993,
+        emoji: ["🪽", "⚔️", "🛡️", "🌟"],
+        abilities: [
+            "LANZA DE ICHORS", "HACHAS DE ICHORS", "POSTURA DE ESCUDO",
+            "CARGA DE ASESINA", "ASCENSO DE ALA-ESPADA", "REPRESALIA DE HEVEN"
+        ],
+        ult: "REPRESALIA DE HEVEN"
+    },
+    fr: {
+        name: "Angela",
+        gender: "Féminin",
+        species: "Asgardienne",
+        affiliation: "Gardiens de la Galaxie",
+        role: "Avant-garde",
+        eyeColor: ["Or", "Blanc"],
+        hairColor: ["Rouge"],
+        hp: 550,
+        dateOfOrigin: 1993,
+        emoji: ["🪽", "⚔️", "🛡️", "🌟"],
+        abilities: [
+            "LANCE D'ICHORS", "HACHES D'ICHORS", "POSTURE DE BOUCLIER",
+            "CHARGE D'ASSASSIN", "ASCENSION DE L'AILE-LAME", "REPRÉSAILLE DE HEVEN"
+        ],
+        ult: "REPRÉSAILLE DE HEVEN"
+    },
+    de: {
+        name: "Angela",
+        gender: "Weiblich",
+        species: "Asgardianerin",
+        affiliation: "Wächter der Galaxie",
+        role: "Vorreiter",
+        eyeColor: ["Gold", "Weiß"],
+        hairColor: ["Rot"],
+        hp: 550,
+        dateOfOrigin: 1993,
+        emoji: ["🪽", "⚔️", "🛡️", "🌟"],
+        abilities: [
+            "SPEER DER ICHORS", "ÄXTE DER ICHORS", "SCHILDHALTUNG",
+            "ASSASSINENANGRIFF", "FLÜGELKLINGEN-AUFSTIEG", "VERGELTUNG VON HEVEN"
+        ],
+        ult: "VERGELTUNG VON HEVEN"
+    },
+    zh: {
+        name: "安吉拉",
+        gender: "女性",
+        species: "阿斯加德人",
+        affiliation: "银河护卫队",
+        role: "先锋",
+        eyeColor: ["金色", "白色"],
+        hairColor: ["红色"],
+        hp: 550,
+        dateOfOrigin: 1993,
+        emoji: ["🪽", "⚔️", "🛡️", "🌟"],
+        abilities: [
+            "灵液之矛", "灵液之斧", "持盾姿态",
+            "刺客冲锋", "翼刃飞升", "海文的报复"
+        ],
+        ult: "海文的报复"
+    }
+});
+
+const blackCat = new Person({
+    en: {
+        name: "Black Cat",
+        gender: "Female",
+        species: "Human",
+        affiliation: "Thieves Guild",
+        role: "Duelist",
+        eyeColor: ["Green"],
+        hairColor: ["White"],
+        hp: 275,
+        dateOfOrigin: 1979,
+        emoji: ["🐈‍⬛", "🍀", "💎", "🎭"],
+        abilities: [
+            "FELINE FURY", "FORTUNE'S FAVOR", "PHANTOM PURSUIT",
+            "CAT'S CRADLE", "THIEVING GRACE", "GILDED DEAL", "CALLING CARD"
+        ],
+        ult: "CALLING CARD"
+    },
+    es: {
+        name: "Gata Negra",
+        gender: "Femenino",
+        species: "Humana",
+        affiliation: "Gremio de Ladrones",
+        role: "Duelista",
+        eyeColor: ["Verde"],
+        hairColor: ["Blanco"],
+        hp: 275,
+        dateOfOrigin: 1979,
+        emoji: ["🐈‍⬛", "🍀", "💎", "🎭"],
+        abilities: [
+            "FURIA FELINA", "FAVOR DE LA FORTUNA", "PERSECUCIÓN FANTASMA",
+            "CUNA DEL GATO", "GRACIA LADRONA", "TRATO DORADO", "TARJETA DE PRESENTACIÓN"
+        ],
+        ult: "TARJETA DE PRESENTACIÓN"
+    },
+    fr: {
+        name: "Chatte Noire",
+        gender: "Féminin",
+        species: "Humaine",
+        affiliation: "Guilde des Voleurs",
+        role: "Duelliste",
+        eyeColor: ["Vert"],
+        hairColor: ["Blanc"],
+        hp: 275,
+        dateOfOrigin: 1979,
+        emoji: ["🐈‍⬛", "🍀", "💎", "🎭"],
+        abilities: [
+            "FUREUR FÉLINE", "FAVEUR DE LA FORTUNE", "POURSUITE FANTÔME",
+            "BERCEAU DU CHAT", "GRÂCE DU VOLEUR", "MARCHÉ DORÉ", "CARTE DE VISITE"
+        ],
+        ult: "CARTE DE VISITE"
+    },
+    de: {
+        name: "Schwarze Katze",
+        gender: "Weiblich",
+        species: "Mensch",
+        affiliation: "Diebesgilde",
+        role: "Duellant",
+        eyeColor: ["Grün"],
+        hairColor: ["Weiß"],
+        hp: 275,
+        dateOfOrigin: 1979,
+        emoji: ["🐈‍⬛", "🍀", "💎", "🎭"],
+        abilities: [
+            "KATZENWUT", "GUNST DES GLÜCKS", "PHANTOMVERFOLGUNG",
+            "KATZENWIEGE", "DIEBSGRAZIE", "GOLDENER HANDEL", "VISITENKARTE"
+        ],
+        ult: "VISITENKARTE"
+    },
+    zh: {
+        name: "黑猫",
+        gender: "女性",
+        species: "人类",
+        affiliation: "盗贼公会",
+        role: "决斗者",
+        eyeColor: ["绿色"],
+        hairColor: ["白色"],
+        hp: 275,
+        dateOfOrigin: 1979,
+        emoji: ["🐈‍⬛", "🍀", "💎", "🎭"],
+        abilities: [
+            "猫科之怒", "幸运眷顾", "幻影追击",
+            "猫摇篮", "盗贼优雅", "镀金交易", "名片"
+        ],
+        ult: "名片"
+    }
+});
+
+const blade = new Person({
+    en: {
+        name: "Blade",
+        gender: "Male",
+        species: "Human",
+        affiliation: "Midnight Sons",
+        role: "Duelist",
+        eyeColor: ["Brown"],
+        hairColor: ["Black"],
+        hp: 350,
+        dateOfOrigin: 1973,
+        emoji: ["🗡️", "🦇", "☀️", "🩸"],
+        abilities: [
+            "ANCESTRAL SWORD", "HUNTER'S SHOTGUN", "DAYWALKER DASH",
+            "SCARLET SHROUD", "BLOODLINE AWAKENING", "THOUSAND-FOLD SLASH"
+        ],
+        ult: "THOUSAND-FOLD SLASH"
+    },
+    es: {
+        name: "Blade",
+        gender: "Masculino",
+        species: "Humano",
+        affiliation: "Hijos de Medianoche",
+        role: "Duelista",
+        eyeColor: ["Marrón"],
+        hairColor: ["Negro"],
+        hp: 350,
+        dateOfOrigin: 1973,
+        emoji: ["🗡️", "🦇", "☀️", "🩸"],
+        abilities: [
+            "ESPADA ANCESTRAL", "ESCOPETA DEL CAZADOR", "EMBESTIDA DIURNA",
+            "SUDARIO ESCARLATA", "DESPERTAR DEL LINAJE", "TAJO DE MIL CORTES"
+        ],
+        ult: "TAJO DE MIL CORTES"
+    },
+    fr: {
+        name: "Blade",
+        gender: "Homme",
+        species: "Humain",
+        affiliation: "Fils de Minuit",
+        role: "Duelliste",
+        eyeColor: ["Marron"],
+        hairColor: ["Noir"],
+        hp: 350,
+        dateOfOrigin: 1973,
+        emoji: ["🗡️", "🦇", "☀️", "🩸"],
+        abilities: [
+            "ÉPÉE ANCESTRALE", "FUSIL DU CHASSEUR", "RUÉE DU MARCHEUR DIURNE",
+            "LINCEUL ÉCARLATE", "ÉVEIL DE LA LIGNÉE", "ENTAILLE AU MILLE LAMES"
+        ],
+        ult: "ENTAILLE AU MILLE LAMES"
+    },
+    de: {
+        name: "Blade",
+        gender: "Männlich",
+        species: "Mensch",
+        affiliation: "Söhne der Mitternacht",
+        role: "Duellant",
+        eyeColor: ["Braun"],
+        hairColor: ["Schwarz"],
+        hp: 350,
+        dateOfOrigin: 1973,
+        emoji: ["🗡️", "🦇", "☀️", "🩸"],
+        abilities: [
+            "ANGESTAMMTES SCHWERT", "JÄGERSCHROTFLINTE", "TAGWANDLER-ANSTURM",
+            "SCHARLACHROTES LEICHENTUCH", "BLUTLINIEN-ERWACHEN", "TAUSENDFACHER HIEB"
+        ],
+        ult: "TAUSENDFACHER HIEB"
+    },
+    zh: {
+        name: "刀锋战士",
+        gender: "男性",
+        species: "人类",
+        affiliation: "午夜之子",
+        role: "决斗者",
+        eyeColor: ["棕色"],
+        hairColor: ["黑色"],
+        hp: 350,
+        dateOfOrigin: 1973,
+        emoji: ["🗡️", "🦇", "☀️", "🩸"],
+        abilities: [
+            "祖传之剑", "猎人霰弹枪", "日行者冲刺",
+            "猩红裹尸布", "血脉觉醒", "千刃斩"
+        ],
+        ult: "千刃斩"
+    }
+});
+
+const daredevil = new Person({
+    en: {
+        name: "Daredevil",
+        gender: "Male",
+        species: "Human",
+        affiliation: "Defenders",
+        role: "Duelist",
+        eyeColor: ["Red"],
+        hairColor: ["Red"],
+        hp: 325,
+        dateOfOrigin: 1964,
+        emoji: ["👹", "⚖️", "🦯", "🎯"],
+        abilities: [
+            "JUSTICE JAB", "RIGHTEOUS CROSS", "SONIC PURSUIT",
+            "DEVIL'S LATCH", "OBJECTION!", "INFERNAL FURY", "LET THE DEVIL OUT"
+        ],
+        ult: "LET THE DEVIL OUT"
+    },
+    es: {
+        name: "Daredevil",
+        gender: "Masculino",
+        species: "Humano",
+        affiliation: "Defensores",
+        role: "Duelista",
+        eyeColor: ["Rojo"],
+        hairColor: ["Rojo"],
+        hp: 325,
+        dateOfOrigin: 1964,
+        emoji: ["👹", "⚖️", "🦯", "🎯"],
+        abilities: [
+            "GOLPE DE JUSTICIA", "CRUZ JUSTICIERA", "PERSECUCIÓN SÓNICA",
+            "GANCHO DEL DIABLO", "¡PROTESTO!", "FURIA INFERNAL", "DESATA AL DIABLO"
+        ],
+        ult: "DESATA AL DIABLO"
+    },
+    fr: {
+        name: "Daredevil",
+        gender: "Homme",
+        species: "Humain",
+        affiliation: "Défenseurs",
+        role: "Duelliste",
+        eyeColor: ["Rouge"],
+        hairColor: ["Rouge"],
+        hp: 325,
+        dateOfOrigin: 1964,
+        emoji: ["👹", "⚖️", "🦯", "🎯"],
+        abilities: [
+            "COUP DE LA JUSTICE", "CROIX VERTUEUSE", "POURSUITE SONIQUE",
+            "GRIFFE DU DIABLE", "OBJECTION !", "FUREUR INFERNALE", "LIBÈRE LE DIABLE"
+        ],
+        ult: "LIBÈRE LE DIABLE"
+    },
+    de: {
+        name: "Daredevil",
+        gender: "Männlich",
+        species: "Mensch",
+        affiliation: "Defenders",
+        role: "Duellant",
+        eyeColor: ["Rot"],
+        hairColor: ["Rot"],
+        hp: 325,
+        dateOfOrigin: 1964,
+        emoji: ["👹", "⚖️", "🦯", "🎯"],
+        abilities: [
+            "GERECHTIGKEITSSTOSS", "RECHTSCHAFFENER HAKEN", "SCHALL-VERFOLGUNG",
+            "TEUFELSGRIFF", "EINSPRUCH!", "INFERNALISCHE WUT", "LASS DEN TEUFEL RAUS"
+        ],
+        ult: "LASS DEN TEUFEL RAUS"
+    },
+    zh: {
+        name: "夜魔侠",
+        gender: "男性",
+        species: "人类",
+        affiliation: "捍卫者联盟",
+        role: "决斗者",
+        eyeColor: ["红色"],
+        hairColor: ["红色"],
+        hp: 325,
+        dateOfOrigin: 1964,
+        emoji: ["👹", "⚖️", "🦯", "🎯"],
+        abilities: [
+            "正义重击", "正义之拳", "声波追击",
+            "恶魔之钩", "反对！", "地狱之怒", "释放心魔"
+        ],
+        ult: "释放心魔"
+    }
+});
+
+const deadpool = new Person({
+    en: {
+        name: "Deadpool",
+        gender: "Male",
+        species: "Human",
+        affiliation: "X-Force",
+        role: "All",
+        eyeColor: ["White"],
+        hairColor: ["Bald"],
+        hp: 250,
+        dateOfOrigin: 1991,
+        emoji: ["🩸", "🌮", "🤡", "⚔️"],
+        abilities: [
+            "DUAL DESERT EAGLES", "KICKASS KATANAS", "HEALING FACTOR",
+            "BUNNY HOP", "DEADPOOL IN YOUR AREA", "HAZARDOUS HIJINKS", "SKILL ISSUE"
+        ],
+        ult: "SKILL ISSUE"
+    },
+    es: {
+        name: "Deadpool",
+        gender: "Masculino",
+        species: "Humano",
+        affiliation: "Fuerza-X",
+        role: "Todos",
+        eyeColor: ["Blanco"],
+        hairColor: ["Calvo"],
+        hp: 250,
+        dateOfOrigin: 1991,
+        emoji: ["🩸", "🌮", "🤡", "⚔️"],
+        abilities: [
+            "ÁGUILAS DEL DESIERTO DOBLES", "KATANAS DEMOLEDORAS", "FACTOR CURATIVO",
+            "SALTO DE CONEJO", "DEADPOOL EN TU ZONA", "TRAVESURAS PELIGROSAS", "PROBLEMA DE HABILIDAD"
+        ],
+        ult: "PROBLEMA DE HABILIDAD"
+    },
+    fr: {
+        name: "Deadpool",
+        gender: "Homme",
+        species: "Humain",
+        affiliation: "X-Force",
+        role: "Tous",
+        eyeColor: ["Blanc"],
+        hairColor: ["Chauve"],
+        hp: 250,
+        dateOfOrigin: 1991,
+        emoji: ["🩸", "🌮", "🤡", "⚔️"],
+        abilities: [
+            "DOUBLES DESERT EAGLES", "KATANAS DÉCHAÎNÉS", "FACTEUR DE GUÉRISON",
+            "SAUT DU LAPIN", "DEADPOOL DANS LE SECTEUR", "FACÉTIES DANGEREUSES", "PROBLÈME DE COMPÉTENCE"
+        ],
+        ult: "PROBLÈME DE COMPÉTENCE"
+    },
+    de: {
+        name: "Deadpool",
+        gender: "Männlich",
+        species: "Mensch",
+        affiliation: "X-Force",
+        role: "Alle",
+        eyeColor: ["Weiß"],
+        hairColor: ["Kahl"],
+        hp: 250,
+        dateOfOrigin: 1991,
+        emoji: ["🩸", "🌮", "🤡", "⚔️"],
+        abilities: [
+            "DOPPELTE DESERT EAGLES", "WUCHTIGE KATANAS", "HEILUNGSFAKTOR",
+            "HOPPEL-SPRUNG", "DEADPOOL IM ANMARSCH", "GEFÄHRLICHE MÄTZCHEN", "SKILL-PROBLEM"
+        ],
+        ult: "SKILL-PROBLEM"
+    },
+    zh: {
+        name: "死侍",
+        gender: "男性",
+        species: "人类",
+        affiliation: "X特攻队",
+        role: "全部",
+        eyeColor: ["白色"],
+        hairColor: ["秃头"],
+        hp: 250,
+        dateOfOrigin: 1991,
+        emoji: ["🩸", "🌮", "🤡", "⚔️"],
+        abilities: [
+            "双持沙漠之鹰", "刚猛武士刀", "治愈因子",
+            "兔跳", "死侍降临", "危险恶作剧", "技术问题"
+        ],
+        ult: "技术问题"
+    }
+});
+
+const elsaBloodstone = new Person({
+    en: {
+        name: "Elsa Bloodstone",
+        gender: "Female",
+        species: "Human",
+        affiliation: "Midnight Sons",
+        role: "Duelist",
+        eyeColor: ["Blue"],
+        hairColor: ["Red"],
+        hp: 250,
+        dateOfOrigin: 2001,
+        emoji: ["💎", "🔫", "🐺", "🩸"],
+        abilities: [
+            "DOUBLE BARREL BLASTER", "MONSTER PIERCER", "INHERITED INSTINCT",
+            "HELIX ADVANCE", "RUTHLESS PURSUIT", "LIVING BULLET", "SMOKY SNARE", "APEX PREDATOR"
+        ],
+        ult: "APEX PREDATOR"
+    },
+    es: {
+        name: "Elsa Bloodstone",
+        gender: "Femenino",
+        species: "Humana",
+        affiliation: "Hijos de Medianoche",
+        role: "Duelista",
+        eyeColor: ["Azul"],
+        hairColor: ["Rojo"],
+        hp: 250,
+        dateOfOrigin: 2001,
+        emoji: ["💎", "🔫", "🐺", "🩸"],
+        abilities: [
+            "ESCOPETA DE DOBLE CAÑÓN", "PERFORADOR DE MONSTRUOS", "INSTINTO HEREDADO",
+            "AVANCE HELICOIDAL", "PERSECUCIÓN IMPLACABLE", "BALA VIVIENTE", "TRAMPA DE HUMO", "DEPREDADOR ALFA"
+        ],
+        ult: "DEPREDADOR ALFA"
+    },
+    fr: {
+        name: "Elsa Bloodstone",
+        gender: "Féminin",
+        species: "Humaine",
+        affiliation: "Fils de Minuit",
+        role: "Duelliste",
+        eyeColor: ["Bleu"],
+        hairColor: ["Roux"],
+        hp: 250,
+        dateOfOrigin: 2001,
+        emoji: ["💎", "🔫", "🐺", "🩸"],
+        abilities: [
+            "FUSIL À DOUBLE CANON", "PERCE-MONSTRE", "INSTINCT HÉRITÉ",
+            "AVANCE HÉLICOÏDALE", "POURSUITE IMPITOYABLE", "BALLE VIVANTE", "PIÈGE FUMIGÈNE", "PRÉDATEUR ALPHA"
+        ],
+        ult: "PRÉDATEUR ALPHA"
+    },
+    de: {
+        name: "Elsa Bloodstone",
+        gender: "Weiblich",
+        species: "Mensch",
+        affiliation: "Söhne der Mitternacht",
+        role: "Duellant",
+        eyeColor: ["Blau"],
+        hairColor: ["Rot"],
+        hp: 250,
+        dateOfOrigin: 2001,
+        emoji: ["💎", "🔫", "🐺", "🩸"],
+        abilities: [
+            "DOPPELLÄUFIGER BLASTER", "MONSTERDURCHBOHRER", "VERERBTER INSTINKT",
+            "HELIX-VORSTOSS", "GNADENLOSE VERFOLGUNG", "LEBENDE KUGEL", "RAUCHFALLE", "ALPHA-RAUBTIER"
+        ],
+        ult: "ALPHA-RAUBTIER"
+    },
+    zh: {
+        name: "艾尔莎·血石",
+        gender: "女性",
+        species: "人类",
+        affiliation: "午夜之子",
+        role: "决斗者",
+        eyeColor: ["蓝色"],
+        hairColor: ["红色"],
+        hp: 250,
+        dateOfOrigin: 2001,
+        emoji: ["💎", "🔫", "🐺", "🩸"],
+        abilities: [
+            "双管爆破枪", "怪物穿刺者", "传承本能",
+            "螺旋突进", "无情追击", "活体子弹", "烟雾陷阱", "顶级掠食者"
+        ],
+        ult: "顶级掠食者"
+    }
+});
+
+const gambit = new Person({
+    en: {
+        name: "Gambit",
+        gender: "Male",
+        species: "Mutant",
+        affiliation: "X-Men",
+        role: "Strategist",
+        eyeColor: ["Red", "Black"],
+        hairColor: ["Red"],
+        hp: 275,
+        dateOfOrigin: 1990,
+        emoji: ["🃏", "✨", "🎴", "⚡"],
+        abilities: [
+            "KINETIC CARDS", "SLEIGHT OF HAND", "CAJUN CHARGE",
+            "BAYOU BASH", "HEALING HEARTS", "BRIDGE BOOST", "EXPLOSIVE TRICK", "RAGIN' ROYAL FLUSH"
+        ],
+        ult: "RAGIN' ROYAL FLUSH"
+    },
+    es: {
+        name: "Gambito",
+        gender: "Masculino",
+        species: "Mutante",
+        affiliation: "X-Men",
+        role: "Estratega",
+        eyeColor: ["Rojo", "Negro"],
+        hairColor: ["Rojo"],
+        hp: 275,
+        dateOfOrigin: 1990,
+        emoji: ["🃏", "✨", "🎴", "⚡"],
+        abilities: [
+            "CARTAS CINÉTICAS", "MANO RÁPIDA", "CARGA CAJÚN",
+            "GOLPE DEL PANTANO", "CORAZONES SANADORES", "IMPULSO DE PUENTE", "TRUCO EXPLOSIVO", "ESCALERA REAL FURIOSA"
+        ],
+        ult: "ESCALERA REAL FURIOSA"
+    },
+    fr: {
+        name: "Gambit",
+        gender: "Homme",
+        species: "Mutant",
+        affiliation: "X-Men",
+        role: "Stratège",
+        eyeColor: ["Rouge", "Noir"],
+        hairColor: ["Rouge"],
+        hp: 275,
+        dateOfOrigin: 1990,
+        emoji: ["🃏", "✨", "🎴", "⚡"],
+        abilities: [
+            "CARTES CINÉTIQUES", "TOUR DE MAIN", "CHARGE CAJUN",
+            "FRAPPE DU BAYOU", "CŒURS GUÉRISSEURS", "PONT BOOSTÉ", "TOUR EXPLOSIF", "QUINTE FLUSH ENRAGÉE"
+        ],
+        ult: "QUINTE FLUSH ENRAGÉE"
+    },
+    de: {
+        name: "Gambit",
+        gender: "Männlich",
+        species: "Mutant",
+        affiliation: "X-Men",
+        role: "Stratege",
+        eyeColor: ["Rot", "Schwarz"],
+        hairColor: ["Rot"],
+        hp: 275,
+        dateOfOrigin: 1990,
+        emoji: ["🃏", "✨", "🎴", "⚡"],
+        abilities: [
+            "KINETISCHE KARTEN", "FINGERFERTIGKEIT", "CAJUN-ANSTURM",
+            "BAYOU-SCHLAG", "HEILENDE HERZEN", "BRÜCKEN-BOOST", "EXPLOSIVER TRICK", "WÜTENDER ROYAL FLUSH"
+        ],
+        ult: "WÜTENDER ROYAL FLUSH"
+    },
+    zh: {
+        name: "牌皇",
+        gender: "男性",
+        species: "变种人",
+        affiliation: "X战警",
+        role: "战略家",
+        eyeColor: ["红色", "黑色"],
+        hairColor: ["红色"],
+        hp: 275,
+        dateOfOrigin: 1990,
+        emoji: ["🃏", "✨", "🎴", "⚡"],
+        abilities: [
+            "动能扑克", "妙手", "卡疆冲锋",
+            "河口重击", "治愈之心", "桥梁加速", "爆炸把戏", "狂暴皇家同花顺"
+        ],
+        ult: "狂暴皇家同花顺"
+    }
+});
+
+const rogue = new Person({
+    en: {
+        name: "Rogue",
+        gender: "Female",
+        species: "Mutant",
+        affiliation: "X-Men",
+        role: "Vanguard",
+        eyeColor: ["Green"],
+        hairColor: ["Brown", "White"],
+        hp: 675,
+        dateOfOrigin: 1981,
+        emoji: ["💚", "🌹", "⚡", "💋"],
+        abilities: [
+            "POWER SURGE PUNCH", "DEFENSIVE STANCE", "SOUTHERN BRAWL",
+            "FATAL ATTRACTION", "CHRONO KICK COMBO", "ABILITY ABSORPTION", "HEARTBREAKER"
+        ],
+        ult: "HEARTBREAKER"
+    },
+    es: {
+        name: "Rogue",
+        gender: "Femenino",
+        species: "Mutante",
+        affiliation: "X-Men",
+        role: "Vanguardia",
+        eyeColor: ["Verde"],
+        hairColor: ["Marrón", "Blanco"],
+        hp: 675,
+        dateOfOrigin: 1981,
+        emoji: ["💚", "🌹", "⚡", "💋"],
+        abilities: [
+            "PUÑO DE PODER DESBORDANTE", "POSTURA DEFENSIVA", "RIÑA SUREÑA",
+            "ATRACCIÓN FATAL", "COMBO DE PATADA TEMPORAL", "ABSORCIÓN DE PODERES", "ROMPECORAZONES"
+        ],
+        ult: "ROMPECORAZONES"
+    },
+    fr: {
+        name: "Malicia",
+        gender: "Féminin",
+        species: "Mutante",
+        affiliation: "X-Men",
+        role: "Avant-garde",
+        eyeColor: ["Vert"],
+        hairColor: ["Marron", "Blanc"],
+        hp: 675,
+        dateOfOrigin: 1981,
+        emoji: ["💚", "🌹", "⚡", "💋"],
+        abilities: [
+            "POING DE SURTENSION", "POSTURE DÉFENSIVE", "BAGARRE SUDISTE",
+            "ATTRACTION FATALE", "COMBO DE COUP DE PIED CHRONO", "ABSORPTION DE POUVOIRS", "BRISEUSE DE CŒURS"
+        ],
+        ult: "BRISEUSE DE CŒURS"
+    },
+    de: {
+        name: "Rogue",
+        gender: "Weiblich",
+        species: "Mutantin",
+        affiliation: "X-Men",
+        role: "Vorreiter",
+        eyeColor: ["Grün"],
+        hairColor: ["Braun", "Weiß"],
+        hp: 675,
+        dateOfOrigin: 1981,
+        emoji: ["💚", "🌹", "⚡", "💋"],
+        abilities: [
+            "KRAFTSTOSS-FAUST", "VERTEIDIGUNGSHALTUNG", "SÜDSTAATEN-PRÜGELEI",
+            "TÖDLICHE ANZIEHUNG", "CHRONO-TRITT-KOMBO", "FÄHIGKEITSABSORPTION", "HERZENSBRECHERIN"
+        ],
+        ult: "HERZENSBRECHERIN"
+    },
+    zh: {
+        name: "小淘气",
+        gender: "女性",
+        species: "变种人",
+        affiliation: "X战警",
+        role: "先锋",
+        eyeColor: ["绿色"],
+        hairColor: ["棕色", "白色"],
+        hp: 675,
+        dateOfOrigin: 1981,
+        emoji: ["💚", "🌹", "⚡", "💋"],
+        abilities: [
+            "能量涌动一拳", "防御姿态", "南方斗殴",
+            "致命吸引", "时空踢腿连招", "能力吸收", "碎心者"
+        ],
+        ult: "碎心者"
+    }
+});
+
+const whiteFox = new Person({
+    en: {
+        name: "White Fox",
+        gender: "Female",
+        species: "Human",
+        affiliation: "Tiger Division",
+        role: "Strategist",
+        eyeColor: ["Brown"],
+        hairColor: ["White"],
+        hp: 275,
+        dateOfOrigin: 2014,
+        emoji: ["🦊", "⛩️", "❄️", "✨"],
+        abilities: [
+            "YEOWOO GUSEUL", "SPECTRAL SURGE", "GUARD",
+            "FOX FORM AWAKENING", "CLAW STRIKE", "PREDATORY POUNCE", "TAIL SWEEP", "KUMIHO UNLEASHED"
+        ],
+        ult: "KUMIHO UNLEASHED"
+    },
+    es: {
+        name: "Zorra Blanca",
+        gender: "Femenino",
+        species: "Humana",
+        affiliation: "División Tigre",
+        role: "Estratega",
+        eyeColor: ["Marrón"],
+        hairColor: ["Blanco"],
+        hp: 275,
+        dateOfOrigin: 2014,
+        emoji: ["🦊", "⛩️", "❄️", "✨"],
+        abilities: [
+            "YEOWOO GUSEUL", "OLEADA ESPECTRAL", "GUARDIA",
+            "DESPERTAR DE FORMA ZORRO", "GOLPE DE GARRA", "EMBATE DEPREDADOR", "BARRIDO DE COLA", "KUMIHO DESATADA"
+        ],
+        ult: "KUMIHO DESATADA"
+    },
+    fr: {
+        name: "Renarde Blanche",
+        gender: "Féminin",
+        species: "Humaine",
+        affiliation: "Division Tigre",
+        role: "Stratège",
+        eyeColor: ["Marron"],
+        hairColor: ["Blanc"],
+        hp: 275,
+        dateOfOrigin: 2014,
+        emoji: ["🦊", "⛩️", "❄️", "✨"],
+        abilities: [
+            "YEOWOO GUSEUL", "DÉFERLANTE SPECTRALE", "GARDE",
+            "ÉVEIL DE FORME RENARDE", "FRAPPE DE GRIFFE", "BOND PRÉDATEUR", "BALAYAGE DE QUEUE", "KUMIHO DÉCHAÎNÉE"
+        ],
+        ult: "KUMIHO DÉCHAÎNÉE"
+    },
+    de: {
+        name: "Weißer Fuchs",
+        gender: "Weiblich",
+        species: "Mensch",
+        affiliation: "Tiger-Division",
+        role: "Stratege",
+        eyeColor: ["Braun"],
+        hairColor: ["Weiß"],
+        hp: 275,
+        dateOfOrigin: 2014,
+        emoji: ["🦊", "⛩️", "❄️", "✨"],
+        abilities: [
+            "YEOWOO GUSEUL", "SPEKTRALER ANSTURM", "WACHE",
+            "ERWACHEN DER FUCHSGESTALT", "KRALLENHIEB", "RAUBTIERSPRUNG", "SCHWEIFFEGE", "KUMIHO ENTFESSELT"
+        ],
+        ult: "KUMIHO ENTFESSELT"
+    },
+    zh: {
+        name: "白狐",
+        gender: "女性",
+        species: "人类",
+        affiliation: "猛虎师",
+        role: "战略家",
+        eyeColor: ["棕色"],
+        hairColor: ["白色"],
+        hp: 275,
+        dateOfOrigin: 2014,
+        emoji: ["🦊", "⛩️", "❄️", "✨"],
+        abilities: [
+            "狐狸珠", "灵能涌动", "守护",
+            "狐形觉醒", "利爪打击", "猎食扑击", "尾扫", "九尾狐释放"
+        ],
+        ult: "九尾狐释放"
+    }
+});
+
 export const characters = [
     captainAmerica,
     doctorStrange,
@@ -3600,5 +4392,14 @@ export const characters = [
     cloakAndDagger,
     jeffTheLandShark,
     invisibleWoman,
-    ultron
+    ultron,
+    angela,
+    blackCat,
+    blade,
+    daredevil,
+    deadpool,
+    elsaBloodstone,
+    gambit,
+    rogue,
+    whiteFox
 ];
