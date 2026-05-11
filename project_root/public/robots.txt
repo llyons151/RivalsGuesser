@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.rivaldle.com/sitemap.xml
+Sitemap: https://rivaldle.com/sitemap.xml
